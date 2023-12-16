@@ -1,6 +1,7 @@
 /* styles/ThisSemester.module.css */
 .mainContent {
-  min-height: 100vh; 
+  min-height: calc(100vh - [NavbarHeight]); /* Replace [NavbarHeight] with the actual height of your Navbar */
+  /* Other styling as needed */
 }
 
 .semesterSection {
