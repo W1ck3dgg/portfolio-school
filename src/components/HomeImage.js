@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import styles from './HomeImage.module.css';
 
 const HomeImage = () => {
@@ -6,7 +7,9 @@ const HomeImage = () => {
     <div className={styles.container}>
       <img src="/fin2.png" alt="Featured Work" className={styles.image} />
       <div className={styles.textWrapper}>
-        <div className={styles.text}>EXPLORE MY WORK</div>
+        <Link legacyBehavior href="/this-semester">
+          <a className={styles.text}>EXPLORE MY WORK</a>
+        </Link>
       </div>
     </div>
   );

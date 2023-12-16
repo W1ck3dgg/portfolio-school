@@ -1,0 +1,96 @@
+/* styles/ThisSemester.module.css */
+
+.semesterSection {
+  text-align: center;
+  margin: 40px 0; 
+}
+
+.sectionTitle {
+  color: rgb(180, 3, 10);
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background-color: rgb(177, 177, 177); /* Gray background for first section */
+  width: 200px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.cardText {
+  transform: rotate(-52deg);
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.projectsSection {
+  text-align: center;
+  margin: 40px 0;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding-bottom: 40px; /* Increase padding at the bottom of the section */
+}
+
+.projectsTitle {
+  text-align: center;
+  color: black;
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.projectsLabel {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  color: rgb(180, 3, 10);
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.aboutMeSection {
+  text-align: left;
+  margin: 40px 0;
+  background-color: white;
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+.aboutMeContent {
+  max-width: 800px; /* Adjust max-width as needed */
+  margin: auto; /* Center the content */
+}
+
+.aboutMeTitle {
+  color: rgb(180, 3, 10);
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.aboutMeText {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.aboutMeLink {
+  font-weight: bold;
+  color: rgb(180, 3, 10);
+  text-decoration: none;
+}
