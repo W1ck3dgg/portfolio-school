@@ -25,7 +25,7 @@ const ThisSemester = () => {
                 <div className={styles.cardText}>Project prototypes</div>
               </div>
             </a>
-            <a href="/test.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <a href="/Test.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <div className={styles.card} style={{ backgroundImage: 'url(/interview.png)' }}>
                 <div className={styles.cardText}>Interviews</div>
               </div>
