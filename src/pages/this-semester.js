@@ -34,9 +34,7 @@ const ThisSemester = () => {
           <div className={styles.aboutMeContent}>
             <h2 className={styles.aboutMeTitle}>About me</h2>
             <p className={styles.aboutMeText}>
-              "After you have caught up with me, how about you get to know me better by clicking
-                            {/* <Link href="/about-me"><a className={styles.aboutMeLink}> here</a></Link>.
-                            here." */}
+              "After you have caught up with me, how about you get to know me better by clicking"
             </p>
           </div>
         </section>
