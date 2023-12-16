@@ -15,15 +15,21 @@ const ThisSemester = () => {
             <div className={styles.card} style={{ backgroundImage: 'url(/wireframes.png)' }}>
               <div className={styles.cardText}>Wireframes</div>
             </div>
-            <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
-              <div className={styles.cardText}>Portfolio prototype</div>
-            </div>
-            <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
-              <div className={styles.cardText}>Project prototypes</div>
-            </div>
-            <div className={styles.card} style={{ backgroundImage: 'url(/interview.png)' }}>
-              <div className={styles.cardText}>Interviews</div>
-            </div>
+            <a href="https://www.figma.com/file/46WZ8T4Ke8ttfep28CRuMw/Untitled?type=design&node-id=0%3A1&mode=design&t=IqTrHLsO6syOvooB-1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+              <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
+                <div className={styles.cardText}>Portfolio prototype</div>
+              </div>
+            </a>
+            <a href="https://www.figma.com/file/f6lvw1UVxtUMA4fqSOYVNj/DataDash_Mockups?type=design&node-id=145%3A125&mode=design&t=IqTrHLsO6syOvooB-1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+              <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
+                <div className={styles.cardText}>Project prototypes</div>
+              </div>
+            </a>
+            <a href="/test.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+              <div className={styles.card} style={{ backgroundImage: 'url(/interview.png)' }}>
+                <div className={styles.cardText}>Interviews</div>
+              </div>
+            </a>
           </div>
         </section>
         <h2 className={styles.projectsTitle}>Explore my projects</h2>
@@ -33,6 +39,7 @@ const ThisSemester = () => {
             <div className={styles.card} style={{ backgroundImage: 'url(/portfolio.png)' }}>
               <div className={styles.cardText}>Portfolio</div>
             </div>
+
             <div className={styles.card} style={{ backgroundImage: 'url(/ddw.png)' }}>
               <div className={styles.cardText}></div>
             </div>
