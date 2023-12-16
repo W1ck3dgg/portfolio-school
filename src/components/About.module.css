@@ -21,6 +21,10 @@
     height: auto;
   }
   
+  .highlight {
+    color: rgb(180, 3, 10);
+  }
+
   .aboutText {
     color: black;
     max-width: 1600px; 
@@ -28,6 +32,7 @@
     text-align: center;
     line-height: 1.6; 
     font-size: 18px; 
+    font-family: 'Media Sans', sans-serif;
   }
 
   .fontysColor {
@@ -70,6 +75,7 @@
   .testimonialText {
     font-size: 16px;
     color: white; 
+    font-family: 'Media Sans', sans-serif;
   }
 
   .factsSection {
@@ -92,7 +98,9 @@
   
   .factsList {
     list-style: none;
+    font-size: 22px;
     padding: 0;
+    font-family: 'Media Sans', sans-serif;
     color: rgb(27,27,27);
   }
   

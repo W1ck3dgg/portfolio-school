@@ -53,7 +53,7 @@ const About = () => {
           </h2>
           <ul className={styles.factsList}>
           <li>
-            Most of my free time I listen to music and I like all kinds of music and genres, but my favorite are
+            Most of my free time <span className={styles.highlight}>I listen</span> to music and I like all kinds of music and genres, but my favorite are
             <span className={styles.genre}> pop,</span>
             <span className={styles.genre}> dnb,</span>
             <span className={styles.genre}> rock,</span>
@@ -61,11 +61,11 @@ const About = () => {
             <span className={styles.genre}> rap,</span>
             <span className={styles.genre}> jpop,</span>
             <span className={styles.genre}> pop-folk,</span>
-              <span className={styles.genre}> classical</span>
+            <span className={styles.genre}> classical</span>
           </li>
-            <li>I like playing competitive games and I also like and want to be good at them as I think I am a very competitive person.</li>
-            <li>Recently I started playing piano, so I love practicing and improvising melodies.</li>
-          </ul>
+          <li>I like playing competitive games and I also like and want to be good at them as I think I am a very <span className={styles.highlight}>competitive person</span>.</li>
+          <li>Recently I started playing piano, so I love <span className={styles.highlight}>practicing</span> and <span className={styles.highlight}>improvising</span> melodies.</li>
+        </ul>
         </div>
         <div className={styles.gifContainer}>
           <img src="https://i.pinimg.com/originals/1c/76/5c/1c765c0d5963c84864bece62355713e0.gif" alt="Fun GIF" className={styles.funGif} />

@@ -21,6 +21,7 @@
     opacity: 90%;
     transition: transform 0.3s ease;
     display: inline-block; 
+    font-family: 'Media Sans', sans-serif;
   }
   
   .links a:hover {
