@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import ImageSection from '../components/ImageSection';
-import styles from '../components/ThisSemester.module.css'; // Correct the path if necessary
+import styles from '../components/This-semester.module.css';
 
 const ThisSemester = () => {
   return (
@@ -26,11 +26,6 @@ const ThisSemester = () => {
             <div className={styles.card}><div className={styles.cardText}>DDW</div></div>
             <div className={styles.card}><div className={styles.cardText}>WeyWeyWeb</div></div>
             <div className={styles.card}><div className={styles.cardText}>Group project</div></div>
-          </div>
-        </section>
-        <section className={styles.aboutMeSection}>
-          <div className={styles.aboutMeContent}>
-            <h2 className={styles.aboutMeTitle}>About me</h2>
           </div>
         </section>
       </main>
