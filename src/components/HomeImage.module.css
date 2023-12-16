@@ -18,19 +18,19 @@
   bottom: 130px;
   left: 50%;
   transform: translateX(-50%);
+  transition: transform 0.3s ease;
 }
 
 .text {
   color: black;
   opacity: 50%;
-  transition: transform 0.3s ease;
 }
 
-.text:hover {
-  transform: scale(1.1);
+.textWrapper:hover {
+  transform: translateX(-50%) scale(1.1); 
 }
 
 .exploreLink {
-  color: black; /* Or any color your text should be */
-  text-decoration: none; /* Removes underline from links */
+  color: black; 
+  text-decoration: none;
 }
