@@ -1,3 +1,15 @@
+@media (max-width: 768px) {
+  .card {
+    width: 150px;
+    height: 200px;
+  }
+
+  .cardText {
+    font-size: 18px;
+    transform: rotate(0);
+  }
+}
+
 .mainContent {
   min-height: calc(100vh - [NavbarHeight]);
 }
@@ -12,6 +24,7 @@
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 28px;
+  font-family: 'Media Sans', sans-serif;
 }
 
 .cardsContainer {
@@ -49,18 +62,6 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-@media (max-width: 768px) {
-  .card {
-    width: 150px;
-    height: 200px;
-  }
-
-  .cardText {
-    font-size: 18px;
-    transform: rotate(0);
-  }
-}
-
 .cardTextWrapper {
   background-color: rgba(0, 0, 0, 0.5); 
   padding: 5px; 
@@ -82,6 +83,7 @@
   margin: 20px 0;
   font-weight: bold;
   font-size: 28px;
+  font-family: 'Media Sans', sans-serif;
 }
 
 .projectsLabel {
@@ -91,6 +93,7 @@
   color: rgb(180, 3, 10);
   font-weight: bold;
   font-size: 28px;
+  font-family: 'Media Sans', sans-serif;
 }
 
 .aboutMeSection {
