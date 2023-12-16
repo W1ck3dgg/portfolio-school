@@ -12,20 +12,36 @@ const ThisSemester = () => {
         <section className={styles.semesterSection}>
           <h2 className={styles.sectionTitle}>What have I done this semester</h2>
           <div className={styles.cardsContainer}>
-            <div className={styles.card}><div className={styles.cardText}>Wireframes</div></div>
-            <div className={styles.card}><div className={styles.cardText}>Portfolio prototype</div></div>
-            <div className={styles.card}><div className={styles.cardText}>Project prototypes</div></div>
-            <div className={styles.card}><div className={styles.cardText}>Interviews</div></div>
+            <div className={styles.card} style={{ backgroundImage: 'url(/wireframes.png)' }}>
+              <div className={styles.cardText}>Wireframes</div>
+            </div>
+            <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
+              <div className={styles.cardText}>Portfolio prototype</div>
+            </div>
+            <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
+              <div className={styles.cardText}>Project prototypes</div>
+            </div>
+            <div className={styles.card} style={{ backgroundImage: 'url(/interview.png)' }}>
+              <div className={styles.cardText}>Interviews</div>
+            </div>
           </div>
         </section>
         <h2 className={styles.projectsTitle}>Explore my projects</h2>
         <section className={styles.projectsSection}>
           <div className={styles.projectsLabel}>My Projects</div>
           <div className={styles.cardsContainer}>
-            <div className={styles.card}><div className={styles.cardText}>Portfolio</div></div>
-            <div className={styles.card}><div className={styles.cardText}>DDW</div></div>
-            <div className={styles.card}><div className={styles.cardText}>WeyWeyWeb</div></div>
-            <div className={styles.card}><div className={styles.cardText}>Group project</div></div>
+            <div className={styles.card} style={{ backgroundImage: 'url(/portfolio.png)' }}>
+              <div className={styles.cardText}>Portfolio</div>
+            </div>
+            <div className={styles.card} style={{ backgroundImage: 'url(/ddw.png)' }}>
+              <div className={styles.cardText}></div>
+            </div>
+            <div className={styles.card} style={{ backgroundImage: 'url(/wwb.png)' }}>
+              <div className={styles.cardText}></div>
+            </div>
+            <div className={styles.card} style={{ backgroundImage: 'url(/group-project.png)' }}>
+              <div className={styles.cardText}>Group project</div>
+            </div>
           </div>
         </section>
       </main>

@@ -21,7 +21,9 @@
 }
 
 .card {
-  background-color: rgb(177, 177, 177); /* Gray background for first section */
+  background-color: rgb(177, 177, 177);
+  background-size: cover;
+  background-position: center; 
   width: 200px;
   height: 250px;
   display: flex;
@@ -29,14 +31,23 @@
   justify-content: center;
   margin-top: 50px;
   border-radius: 15px;
+  position: relative;
 }
+
 
 .cardText {
   transform: rotate(-52deg);
   display: inline-block;
-  color: black;
-  font-weight: bold;
+  color: white;
+  font-weight: 900;
   font-size: 22px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.cardTextWrapper {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 5px; /* Adjust as needed */
+  border-radius: 5px; /* Optional, for rounded corners */
 }
 
 .projectsSection {
