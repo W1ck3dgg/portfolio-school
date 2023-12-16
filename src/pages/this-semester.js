@@ -1,9 +1,7 @@
-// pages/ThisSemester.js
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import ImageSection from '../components/ImageSection';
-import styles from '../components/This-semester.module.css';
+import styles from '../components/ThisSemester.module.css'; // Correct the path if necessary
 
 const ThisSemester = () => {
   return (
@@ -28,6 +26,15 @@ const ThisSemester = () => {
             <div className={styles.card}><div className={styles.cardText}>DDW</div></div>
             <div className={styles.card}><div className={styles.cardText}>WeyWeyWeb</div></div>
             <div className={styles.card}><div className={styles.cardText}>Group project</div></div>
+          </div>
+        </section>
+        <section className={styles.aboutMeSection}>
+          <div className={styles.aboutMeContent}>
+            <h2 className={styles.aboutMeTitle}>About me</h2>
+            <p className={styles.aboutMeText}>
+              "After you have caught up with me, how about you get to know me better by clicking
+              <Link href="/about-me"><a className={styles.aboutMeLink}> here</a></Link>."
+            </p>
           </div>
         </section>
       </main>
