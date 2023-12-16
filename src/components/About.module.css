@@ -1,0 +1,16 @@
+.mainContent {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .imageContainer {
+    width: 100%;
+    max-width: 1000px; 
+    margin: auto;
+  }
+  
+  .aboutImage {
+    width: 100%;
+    height: auto;
+  }
+  

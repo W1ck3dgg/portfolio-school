@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className={styles.links}>
         <Link href="/this-semester" legacyBehavior><a>THIS SEMESTER</a></Link>
         <Link href="/learning-outcomes" legacyBehavior><a>LEARNING OUTCOMES</a></Link>
-        <Link href="/about-me" legacyBehavior><a>ABOUT ME</a></Link>
+        <Link href="/about" legacyBehavior><a>ABOUT ME</a></Link>
         <Link href="/reading-guide" legacyBehavior><a>READING GUIDE</a></Link>
       </div>
     </nav>

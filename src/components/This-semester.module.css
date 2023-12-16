@@ -16,6 +16,7 @@
 
 .cardsContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
@@ -36,9 +37,8 @@
 }
 
 .card:hover {
-  transform: scale(1.05); /* Slightly increase the size on hover */
+  transform: scale(1.05); 
 }
-
 
 .cardText {
   transform: rotate(-52deg);
@@ -49,16 +49,28 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
+@media (max-width: 768px) {
+  .card {
+    width: 150px;
+    height: 200px;
+  }
+
+  .cardText {
+    font-size: 18px;
+    transform: rotate(0);
+  }
+}
+
 .cardTextWrapper {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-  padding: 5px; /* Adjust as needed */
-  border-radius: 5px; /* Optional, for rounded corners */
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 5px; 
+  border-radius: 5px; 
 }
 
 .projectsSection {
   text-align: center;
   margin: 40px 0;
-  background-color: black;
+  background-color: rgb(27, 27, 27);
   color: white;
   position: relative;
   padding-bottom: 40px; 
@@ -85,12 +97,12 @@
   text-align: left;
   margin: 40px 0;
   background-color: white;
-  padding: 0 20px; /* Adjust padding as needed */
+  padding: 0 20px;
 }
 
 .aboutMeContent {
-  max-width: 800px; /* Adjust max-width as needed */
-  margin: auto; /* Center the content */
+  max-width: 800px;
+  margin: auto;
 }
 
 .aboutMeTitle {

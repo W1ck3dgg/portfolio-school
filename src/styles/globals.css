@@ -2,9 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Media Sans Extended';
+  src: url('/fonts/mediasansextended-bold-TRIAL-BF63c7546bb2aa0.woff2') format('woff2'),
+       url('/fonts/mediasansextended-bold-TRIAL-BF63c7546bb2aa0.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Media Sans Extended';
+  src: url('/fonts/mediasansextended-regular-TRIAL-BF63c7546bb2aa0.woff2') format('woff2'),
+       url('/fonts/mediasansextended-regular-TRIAL-BF63c7546bb2aa0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 html, body {
+  font-family: 'Media Sans Extended', sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
