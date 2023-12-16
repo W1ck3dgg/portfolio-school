@@ -30,11 +30,6 @@ const ThisSemester = () => {
             <div className={styles.card}><div className={styles.cardText}>Group project</div></div>
           </div>
         </section>
-        <section className={styles.aboutMeSection}>
-          <div className={styles.aboutMeContent}>
-            <h2 className={styles.aboutMeTitle}>About me</h2>
-          </div>
-        </section>
       </main>
     </div>
   );
