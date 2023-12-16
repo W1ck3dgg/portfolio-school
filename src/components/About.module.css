@@ -108,6 +108,7 @@
   .genre:nth-child(5) { font-size: 14px; }
   .genre:nth-child(6) { font-size: 12px; }
   .genre:nth-child(7) { font-size: 10px; }
+  .genre:nth-child(8) { font-size: 10px; }
   .genre:last-child { font-size: 8px; }
   
   .gifContainer {
