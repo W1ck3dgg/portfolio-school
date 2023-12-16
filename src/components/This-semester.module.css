@@ -32,6 +32,11 @@
   margin-top: 50px;
   border-radius: 15px;
   position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly increase the size on hover */
 }
 
 
