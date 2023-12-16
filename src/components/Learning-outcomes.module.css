@@ -1,0 +1,92 @@
+/* styles/LearningOutcomes.module.css */
+
+.header {
+    background-image: url('/learning-outcomes.png');
+    background-size: contain; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: [DesiredHeight]px 0;
+    text-align: center;
+    
+  }
+  
+  .headerImage {
+    width: 100%;      
+    max-height: 400px; 
+    height: auto;     
+    display: block;    
+    margin: 0 auto;    
+  }
+
+  .fullWidthImage {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .learningOutcomesTitle {
+    color: white;
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0;
+  }
+  
+  .learningOutcomesContainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  .learningOutcome {
+    margin-bottom: 2em;
+  }
+  
+  .learningOutcomeTitle {
+    color: rgb(180, 3, 10);
+    font-size: 1.5em;
+  }
+  
+  .learningOutcomeDescription {
+    margin-bottom: 1em;
+    color: #1b1b1b;
+    opacity: 90%;
+  }
+  
+  .learningOutcomeList {
+    list-style-type: disc;
+    margin-left: 2em;
+    color: #1b1b1b;
+  }
+
+  .checkProjectsSection {
+    text-align: center;
+    margin: 50px 0; 
+    padding-bottom: 3%;
+  }
+  
+  .checkProjectsTitle {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #1b1b1b;
+  }
+  
+  .toProjectsButton {
+    padding: 10px 20px; 
+    font-size: 1em; 
+    border: 2px solid #000; 
+    border-radius: 25px; 
+    background: none;
+    color: #1b1b1b;
+    cursor: pointer;
+    outline: none; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  .toProjectsButton:hover {
+    background-color: #000;
+    color: #fff; 
+  }
+  
