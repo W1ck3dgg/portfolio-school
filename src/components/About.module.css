@@ -3,6 +3,13 @@
     padding: 20px;
   }
   
+  .greetingText {
+    font-size: 24px;
+    color: black;
+    font-family: 'Media Sans', sans-serif;
+    margin-bottom: 20px;
+  }
+
   .imageContainer {
     width: 100%;
     max-width: 1000px; 
@@ -14,3 +21,97 @@
     height: auto;
   }
   
+  .aboutText {
+    color: black;
+    max-width: 1600px; 
+    margin: 20px auto; 
+    text-align: center;
+    line-height: 1.6; 
+    font-size: 18px; 
+  }
+
+  .fontysColor {
+    color: rgb(180, 3, 10);
+  }
+
+  .testimonialsSection {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px 0;
+  }
+  
+  .testimonialCard {
+    background: rgb(27,27,27);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    max-width: 300px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .testimonialAvatar {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+  }
+  
+  .testimonialName {
+    font-size: 20px; 
+    color: rgb(180, 3, 10);
+  }
+  
+  .testimonialText {
+    font-size: 16px;
+    color: white; 
+  }
+
+  .factsSection {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .factsTitle {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .factsWord {
+    color: rgb(27,27,27); 
+  }
+  
+  .factsHighlight {
+    color: rgb(180, 3, 10);
+  }
+  
+  .factsList {
+    list-style: none;
+    padding: 0;
+    color: rgb(27,27,27);
+  }
+  
+  .genre:first-child { font-size: 22px; }
+  .genre:nth-child(2) { font-size: 20px; }
+  .genre:nth-child(3) { font-size: 18px; }
+  .genre:nth-child(4) { font-size: 16px; }
+  .genre:nth-child(5) { font-size: 14px; }
+  .genre:nth-child(6) { font-size: 12px; }
+  .genre:nth-child(7) { font-size: 10px; }
+  .genre:last-child { font-size: 8px; }
+  
+  .gifContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .funGif {
+    max-width: 80%;
+    height: auto;
+  }

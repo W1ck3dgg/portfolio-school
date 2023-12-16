@@ -12,10 +12,10 @@ const Navbar = () => {
         </a>
       </Link>
       <div className={styles.links}>
-        <Link href="/this-semester" legacyBehavior><a>THIS SEMESTER</a></Link>
-        <Link href="/learning-outcomes" legacyBehavior><a>LEARNING OUTCOMES</a></Link>
-        <Link href="/about" legacyBehavior><a>ABOUT ME</a></Link>
-        <Link href="/reading-guide" legacyBehavior><a>READING GUIDE</a></Link>
+        <Link href="/this-semester" legacyBehavior><a>This semester</a></Link>
+        <Link href="/learning-outcomes" legacyBehavior><a>Learning outcomes</a></Link>
+        <Link href="/about" legacyBehavior><a>About me</a></Link>
+        <Link href="/reading-guide" legacyBehavior><a>Reading guide</a></Link>
       </div>
     </nav>
   );
