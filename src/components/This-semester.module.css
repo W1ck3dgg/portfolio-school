@@ -1,12 +1,28 @@
 /* styles/ThisSemester.module.css */
 
+body {
+  background: url('/path-to-background.jpg') no-repeat center center fixed; 
+  background-size: cover;
+}
+
 .mainContent {
-  min-height: calc(100vh - [NavbarHeight]);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .semesterSection {
   text-align: center;
+  flex: 1;
   margin: 40px 0;
+}
+
+.section {
+  flex-grow: 1;
+}
+
+.footer {
+  height: 150px; /* Adjust as needed */
 }
 
 .sectionTitle {
@@ -48,6 +64,7 @@
   color: white;
   position: relative;
   padding-bottom: 40px;
+  flex: 1;
 }
 
 .projectsTitle {
