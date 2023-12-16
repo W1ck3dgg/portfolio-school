@@ -9,7 +9,7 @@ const ThisSemester = () => {
   return (
     <div>
       <Navbar />
-      <main>
+      <main className={styles.mainContent}>
         <ImageSection imagePath="/section-image-semester.jpg" />
         <section className={styles.semesterSection}>
           <h2 className={styles.sectionTitle}>What have I done this semester</h2>

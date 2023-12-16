@@ -1,4 +1,7 @@
 /* styles/ThisSemester.module.css */
+.mainContent {
+  min-height: 100vh; 
+}
 
 .semesterSection {
   text-align: center;
@@ -43,7 +46,7 @@
   background-color: black;
   color: white;
   position: relative;
-  padding-bottom: 40px; /* Increase padding at the bottom of the section */
+  padding-bottom: 40px; 
 }
 
 .projectsTitle {
@@ -67,12 +70,12 @@
   text-align: left;
   margin: 40px 0;
   background-color: white;
-  padding: 0 20px; /* Adjust padding as needed */
+  padding: 0 20px; 
 }
 
 .aboutMeContent {
-  max-width: 800px; /* Adjust max-width as needed */
-  margin: auto; /* Center the content */
+  max-width: 800px; 
+  margin: auto; 
 }
 
 .aboutMeTitle {
