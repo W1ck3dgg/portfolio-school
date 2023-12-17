@@ -53,7 +53,7 @@ const PortfolioProject = () => {
             This project helped me realize it was more than just an assignment. It was a whole journey of self-development! I faced a lot of troubles along my way, from wondering how to design and structure my website to 
             how to actually creating it. I used to work with this javascript framework during my last semester and I really enjoyed it so I wanted to further develop my skills with it. I started by creating sketches and then a prototype.
             I took inspiration from various good-looking portfolios of successful designers and also my fellow coleagues. I gained deeper appreciation for the work I had done over this semester while creating this portfolio.
-            The feedback from my teachers definitely super valuable, providing me with insights and perspectives I hadn't thought of. I am so happy how my portfolio website turned out to be.
+            The feedback from my teachers definitely super valuable, providing me with insights and perspectives I had not thought of. I am so happy how my portfolio website turned out to be.
             However, in the future I plan to do things a little bit differently. Next time, I want to have and try ask a professional designer to give me feedback on my designs to see and understand their way of thinking and working.
           </p>
         </section>
