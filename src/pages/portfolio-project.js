@@ -20,10 +20,13 @@ const PortfolioProject = () => {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Research Questions</h2>
           <p className={styles.sectionContent}>
-            Main Question: How to create a good-looking and representative portfolio that will serve to showcase my work to the teachers? 
+            <strong>Main Question:</strong>
           </p>
           <p className={styles.sectionContent}>
-          Sub questions:  
+            How to create a good-looking and representative portfolio that will serve to showcase my work to the teachers? 
+          </p>
+          <p className={styles.sectionContent}>
+          <strong>Sub questions:</strong>  
           </p>
           <p className={styles.sectionContent}>
           1. Which front-end technology would be best for creating the portfolio? CMD Methods : Literature Study 
@@ -39,6 +42,32 @@ const PortfolioProject = () => {
           </p>
         </section>
         <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Approach</h2>
+          <p className={styles.sectionContent}>
+            <strong>Research phase:</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            During this phase I conducted multiple research sessions in order to find an answer to my research questions. Most of the materials online really proved useful, but for this project especially
+            I believe that looking at different designs and getting inspired is what really gave the shape of my portfolio.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Design phase:</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            After I was done with my research I had to validate it. I began with some simple sketches, which eventually turned into a prototype. I used Figma, for this project as it was easy to use and also accessible.
+            With each teacher feedback, the prototype underwent different phases and changes, until it was finally up to a state it could implemented as a code.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Building and testing phase:</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            In the beginning I had run into some issues with my code, because Next.js had a big update and was now using app routing, where during my last work with the framework there was a folder called pages where all web pages would go.
+            Eventually I managed to fix the error, I had to start over and there was an option to select the other method of working, the one I was used to. Coding a website is really time consuming and sometimes it can get really frustrating if
+            there is an error that can not be found. I was constantly doing tests with another colleagues of mine. I noticed an issue with some of my fonts not applying properly and some of the images not loading on some of the browsers.
+            After looking up for possible solutions I found out that some old browser versions use different extension for fonts as for the pictures it was cache related issue that was quickly resolved. After several tests my website was done.
+          </p>
+        </section>
+        <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Result & Conclusion</h2>
           <p className={styles.sectionContent}>
             Creating my portfolio website for semester 6 was hard and at the same time fun task to do. I developed further my javascript and design skills, which will help me with the rest of my studies. 
@@ -51,7 +80,7 @@ const PortfolioProject = () => {
           <h2 className={styles.sectionTitle}>Retrospect</h2>
           <p className={styles.sectionContent}>
             This project helped me realize it was more than just an assignment. It was a whole journey of self-development! I faced a lot of troubles along my way, from wondering how to design and structure my website to 
-            how to actually creating it. I used to work with this javascript framework during my last semester and I really enjoyed it so I wanted to further develop my skills with it. I started by creating sketches and then a prototype.
+            how to actually creating it. I used to work with this javascript framework during my last semester and I really enjoyed it so I wanted to further develop my skills with it.Maybe for my future projects I would try a different framework and then compare.
             I took inspiration from various good-looking portfolios of successful designers and also my fellow coleagues. I gained deeper appreciation for the work I had done over this semester while creating this portfolio.
             The feedback from my teachers definitely super valuable, providing me with insights and perspectives I had not thought of. I am so happy how my portfolio website turned out to be.
             However, in the future I plan to do things a little bit differently. Next time, I want to have and try ask a professional designer to give me feedback on my designs to see and understand their way of thinking and working.
