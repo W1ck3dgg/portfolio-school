@@ -2,8 +2,17 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import ImageSection from '../components/ImageSection';
 import styles from '../components/Portfolio-project.module.css';
+import Link from 'next/link';
 
 const PortfolioProject = () => {
+
+  const linkStyle = {
+    color: '#0070f3',
+    textDecoration: 'none',
+    cursor: 'pointer',
+    fontWeight: 'bold', 
+  };
+
   return (
     <div>
       <Navbar />
@@ -37,11 +46,9 @@ const PortfolioProject = () => {
           <p className={styles.sectionContent}>
           3. What elements to include in a portfolio? CMD Methods : Best, good and bad practices, Literature Study 
           </p>
-          <a href="/target-audience" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           <p className={styles.sectionContent}>
-            4. What expectations do teachers have from my portfolio?  CMD Methods : Prototyping, Usability Testing
+            4. <Link legacyBehavior href="/target-audience"><a style={linkStyle}>What expectations do teachers have from my portfolio?</a></Link> CMD Methods : Prototyping, Usability Testing
           </p>
-          </a>
         </section>
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Approach</h2>
