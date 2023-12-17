@@ -37,9 +37,11 @@ const PortfolioProject = () => {
           <p className={styles.sectionContent}>
           3. What elements to include in a portfolio? CMD Methods : Best, good and bad practices, Literature Study 
           </p>
+          <a href="/target-audience" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           <p className={styles.sectionContent}>
             4. What expectations do teachers have from my portfolio?  CMD Methods : Prototyping, Usability Testing
           </p>
+          </a>
         </section>
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Approach</h2>
