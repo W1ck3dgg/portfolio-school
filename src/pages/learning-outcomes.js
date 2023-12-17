@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import ImageSection from '@/components/ImageSection';
-import styles from '../components/Learning-outcomes.module.css'; // Make sure this path is correct
+import styles from '../components/Learning-outcomes.module.css';
 
 const learningOutcomesList = [
   {
@@ -50,9 +50,7 @@ export default function LearningOutcomes() {
     return (
         <div>
           <Navbar />
-          <a href="this-semester" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           <ImageSection imagePath="/learning-outcomes.png" text="LEARNING OUTCOMES" />
-          </a>
           <div className={styles.learningOutcomesContainer}>
             {learningOutcomesList.map((outcome, index) => (
               <section key={index} className={styles.learningOutcome}>

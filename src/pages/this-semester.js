@@ -8,9 +8,7 @@ const ThisSemester = () => {
     <div>
       <Navbar />
       <main className={styles.mainContent}>
-      <a href="/" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
         <ImageSection imagePath="/section-image-semester.jpg" />
-        </a>
         <section className={styles.semesterSection}>
           <h2 className={styles.sectionTitle}>What have I done this semester</h2>
           <div className={styles.cardsContainer}>
