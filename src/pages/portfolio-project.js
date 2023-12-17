@@ -7,7 +7,7 @@ const PortfolioProject = () => {
   return (
     <div>
       <Navbar />
-        <ImageSection imagePath="/Portfolio-banner.png" text="PORTFOLIO" />
+        <ImageSection imagePath="/portfolio-banner.png" text="PORTFOLIO" />
       <main className={styles.mainContent}>
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Introduction</h2>
