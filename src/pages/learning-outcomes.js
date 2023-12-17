@@ -50,7 +50,9 @@ export default function LearningOutcomes() {
     return (
         <div>
           <Navbar />
+          <a href="this-semester" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
           <ImageSection imagePath="/learning-outcomes.png" text="LEARNING OUTCOMES" />
+          </a>
           <div className={styles.learningOutcomesContainer}>
             {learningOutcomesList.map((outcome, index) => (
               <section key={index} className={styles.learningOutcome}>

@@ -15,7 +15,9 @@ const Navbar = () => {
         <Link href="/this-semester" legacyBehavior><a>This semester</a></Link>
         <Link href="/learning-outcomes" legacyBehavior><a>Learning outcomes</a></Link>
         <Link href="/about" legacyBehavior><a>About me</a></Link>
-        <Link href="/reading-guide" legacyBehavior><a>Reading guide</a></Link>
+        <Link href="/Test.pdf" legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer">Reading guide</a>
+        </Link>
       </div>
     </nav>
   );

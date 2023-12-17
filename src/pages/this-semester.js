@@ -8,7 +8,9 @@ const ThisSemester = () => {
     <div>
       <Navbar />
       <main className={styles.mainContent}>
+      <a href="/" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
         <ImageSection imagePath="/section-image-semester.jpg" />
+        </a>
         <section className={styles.semesterSection}>
           <h2 className={styles.sectionTitle}>What have I done this semester</h2>
           <div className={styles.cardsContainer}>
@@ -25,21 +27,20 @@ const ThisSemester = () => {
                 <div className={styles.cardText}>Project prototypes</div>
               </div>
             </a>
-            <a href="/Test.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <div className={styles.card} style={{ backgroundImage: 'url(/interview.png)' }}>
                 <div className={styles.cardText}>Interviews</div>
               </div>
-            </a>
           </div>
         </section>
         <h2 className={styles.projectsTitle}>Explore my projects</h2>
         <section className={styles.projectsSection}>
           <div className={styles.projectsLabel}>My Projects</div>
           <div className={styles.cardsContainer}>
+          <a href="portfolio-project" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
             <div className={styles.card} style={{ backgroundImage: 'url(/portfolio.png)' }}>
               <div className={styles.cardText}>Portfolio</div>
             </div>
-
+            </a>
             <div className={styles.card} style={{ backgroundImage: 'url(/ddw.png)' }}>
               <div className={styles.cardText}></div>
             </div>

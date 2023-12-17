@@ -1,0 +1,24 @@
+.section {
+    margin-bottom: 2em;
+    padding: 1em; 
+}
+
+.section:nth-child(odd) {
+    background-color: #fff
+}
+
+
+.section:nth-child(even) {
+    background-color: #f0f0f0; 
+}
+  
+.sectionTitle {
+    font-size: 1.5em;
+    color: #1b1b1b; 
+    font-family: 'Media Sans', sans-serif;
+}
+  
+.sectionContent {
+    font-size: 1em;
+    color: #333; 
+}

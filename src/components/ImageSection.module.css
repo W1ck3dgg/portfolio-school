@@ -1,24 +1,43 @@
 .container {
-    position: relative;
-    text-align: center;
-  }
-  
-  .image {
-    width: 100%; 
-    height: 300px; 
-    object-fit: cover; 
-    display: block;
-  }
-  
-  
-  .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    opacity: 50%;
-    font-weight: bold;
-    font-size: 64px;
-    font-family: 'Media Sans', sans-serif;
-  }
+  position: relative;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1b1b1b;
+  opacity: 80%;
+  font-weight: bold;
+  font-size: 64px;
+  font-family: 'Media Sans', sans-serif;
+}
+
+.backButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 15px;
+  font-size: 1em; 
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.backButton:hover {
+  background-color: #000;
+  color: rgb(180, 3, 10);
+}
