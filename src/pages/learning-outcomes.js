@@ -1,5 +1,5 @@
-// pages/learning-outcomes.js
 import React from 'react';
+import { useRouter } from 'next/router';
 import Navbar from '../components/Navbar';
 import ImageSection from '@/components/ImageSection';
 import styles from '../components/Learning-outcomes.module.css';
@@ -43,35 +43,41 @@ const learningOutcomesList = [
 ];
 
 export default function LearningOutcomes() {
-    const handleButtonClick = () => {
-      window.location.href = '/this-semester';
-    };
+  const router = useRouter();
 
-    return (
-        <div>
-          <Navbar />
-          <ImageSection imagePath="/learning-outcomes.png" text="LEARNING OUTCOMES" />
-          <div className={styles.learningOutcomesContainer}>
-            {learningOutcomesList.map((outcome, index) => (
-              <section key={index} className={styles.learningOutcome}>
-                <h2 className={styles.learningOutcomeTitle}>
-                  Learning outcome {index + 1}: <span>{outcome.title}</span>
-                </h2>
-                <p className={styles.learningOutcomeDescription}>{outcome.description}</p>
-                <ul className={styles.learningOutcomeList}>
-                  {outcome.items.map((item, itemIndex) => (
-                    <li key={itemIndex}>{item}</li>
-                  ))}
-                </ul>
-              </section>
-            ))}
-          </div>
-          <div className={styles.checkProjectsSection}>
-            <h2 className={styles.checkProjectsTitle}>CHECK MY PROJECTS</h2>
-            <button className={styles.toProjectsButton} onClick={handleButtonClick}>
-              To projects
-            </button>
-          </div>
+  const handleBackButtonClick = () => {
+      router.push('/this-semester');
+  };
+
+  return (
+      <div>
+        <Navbar />
+        <ImageSection 
+            imagePath="/learning-outcomes.png" 
+            text="LEARNING OUTCOMES" 
+            onBackButtonClick={handleBackButtonClick}
+        />
+        <div className={styles.learningOutcomesContainer}>
+          {learningOutcomesList.map((outcome, index) => (
+            <section key={index} className={styles.learningOutcome}>
+              <h2 className={styles.learningOutcomeTitle}>
+                Learning outcome {index + 1}: <span>{outcome.title}</span>
+              </h2>
+              <p className={styles.learningOutcomeDescription}>{outcome.description}</p>
+              <ul className={styles.learningOutcomeList}>
+                {outcome.items.map((item, itemIndex) => (
+                  <li key={itemIndex}>{item}</li>
+                ))}
+              </ul>
+            </section>
+          ))}
         </div>
-      );
-    }
+        <div className={styles.checkProjectsSection}>
+          <h2 className={styles.checkProjectsTitle}>CHECK MY PROJECTS</h2>
+          <button className={styles.toProjectsButton} onClick={handleBackButtonClick}>
+            To projects
+          </button>
+        </div>
+      </div>
+  );
+}

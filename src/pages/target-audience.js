@@ -1,13 +1,24 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import Navbar from '../components/Navbar';
 import ImageSection from '@/components/ImageSection';
 import styles from '../components/Target-audience.module.css'
 
 const TargetAudience = () => {
+  const router = useRouter();
+
+    const handleBackButtonClick = () => {
+        router.push('/portfolio-project'); 
+    };
+
     return (
         <div>
           <Navbar />
-            <ImageSection imagePath="/target-audience.png" text="TARGET AUDIENCE" />
+          <ImageSection 
+                imagePath="/target-audience.png" 
+                text="TARGET AUDIENCE" 
+                onBackButtonClick={handleBackButtonClick}
+            />
           <main className={styles.mainContent}>
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>Introduction</h2>

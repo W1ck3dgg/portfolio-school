@@ -3,8 +3,14 @@ import Navbar from '../components/Navbar';
 import ImageSection from '../components/ImageSection';
 import styles from '../components/Portfolio-project.module.css';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const PortfolioProject = () => {
+  const router = useRouter();
+
+  const handleBackButtonClick = () => {
+    router.push('/this-semester');
+  };
 
   const linkStyle = {
     color: '#0070f3',
@@ -16,7 +22,7 @@ const PortfolioProject = () => {
   return (
     <div>
       <Navbar />
-        <ImageSection imagePath="/portfolio-banner.png" text="PORTFOLIO" />
+      <ImageSection imagePath="/portfolio-banner.png" text="PORTFOLIO" onBackButtonClick={handleBackButtonClick} />
       <main className={styles.mainContent}>
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Introduction</h2>

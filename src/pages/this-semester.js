@@ -1,14 +1,21 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import Navbar from '../components/Navbar';
 import ImageSection from '../components/ImageSection';
 import styles from '../components/This-semester.module.css';
 
 const ThisSemester = () => {
+  const router = useRouter();
+
+  const handleBackButtonClick = () => {
+    router.push('/');
+  };
+
   return (
     <div>
       <Navbar />
       <main className={styles.mainContent}>
-        <ImageSection imagePath="/section-image-semester.jpg" />
+        <ImageSection imagePath="/section-image-semester.jpg" onBackButtonClick={handleBackButtonClick} />
         <section className={styles.semesterSection}>
           <h2 className={styles.sectionTitle}>What have I done this semester</h2>
           <div className={styles.cardsContainer}>
