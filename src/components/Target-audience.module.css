@@ -1,6 +1,6 @@
 .section {
     margin-bottom: 2em;
-    padding: 1em; 
+    padding: 2.5em; 
 }
 
 .section:nth-child(odd) {
@@ -16,9 +16,13 @@
     font-size: 1.5em;
     color: #1b1b1b; 
     font-family: 'Media Sans', sans-serif;
+    margin-right: 10em;
+    margin-left: 6.5em; 
 }
   
 .sectionContent {
     font-size: 1em;
-    color: #333; 
+    color: #333;
+    margin-right: 10em;
+    margin-left: 10em; 
 }
