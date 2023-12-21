@@ -20,12 +20,16 @@ const TargetAudience = () => {
                 onBackButtonClick={handleBackButtonClick}
             />
           <main className={styles.mainContent}>
-            <section className={styles.section}>
-              <h2 className={styles.sectionTitle}>Introduction</h2>
-              <p className={styles.sectionContent}>
-                For my personal portfolio I have the teachers of Semester 6 as my target audience, because I will be doing Minor in Semester 7. In this page I will explain more about my target audience and their importance.
-              </p>
-            </section>
+<section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Introduction</h2>
+          <p className={styles.sectionContent}>
+          For my personal portfolio I have the teachers of Semester 6 as my target audience, because I will be doing Minor in Semester 7. In this page I will explain more about my target audience and their importance.
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/change.png" alt="Image 1" className={styles.sectionImage} />
+            <img src="/change.png" alt="Image 2" className={styles.sectionImage} />
+          </div>
+        </section>
     
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>Approach</h2>

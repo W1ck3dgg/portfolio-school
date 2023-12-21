@@ -40,9 +40,9 @@ const About = () => {
             <p className={styles.testimonialText}>Opinion about me</p>
           </div>
           <div className={styles.testimonialCard}>
-            <img src="/avatar1.png" alt="Person 5" className={styles.testimonialAvatar} />
+            <img src="/negin.png" alt="Person 5" className={styles.testimonialAvatar} />
             <h3 className={styles.testimonialName}>Negin Bokaeiolmousavi</h3>
-            <p className={styles.testimonialText}>Opinion about me</p>
+            <p className={styles.testimonialText}>Presiyan is incredibly supportive and hardworking, consistently bringing dedication to our team. Working with him is a real asset, and I appreciate the effort he puts in every day.</p>
           </div>
         </div>
         <div className={styles.factsSection}>

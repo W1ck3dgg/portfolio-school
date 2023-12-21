@@ -26,3 +26,16 @@
     margin-right: 10em;
     margin-left: 10em; 
 }
+
+.imageRow {
+    display: flex;
+    justify-content: center; /* Centers the images in the row */
+    gap: 10px; /* Adjust the space between images */
+  }
+  
+  .sectionImage {
+    flex: 1; /* Each image takes equal space in the container */
+    max-width: 300px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area */
+  }
