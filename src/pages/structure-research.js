@@ -135,10 +135,10 @@ const StructureResearch = () => {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Colors</h2>
           <p className={styles.sectionContent}>
-            From my previous semester (Internship), I was given a book that has really helpful information about colors, it's from Refactoring UI, and it proved wonders during my internship, so I am once again going to make use of it for this.
+            From my previous semester (Internship), I was given a book that has really helpful information about colors, its from Refactoring UI, and it proved wonders during my internship, so I am once again going to make use of it for this.
             I have chosen a palette comprising <span style={{ color: 'rgb(180, 3, 10)' }}>Darker red</span>, a subtle shade of <span style={{ color: '#1b1b1b' }}>black</span> (#1b1b1b), and white to create a visually compelling and professional look.
             The <span style={{ color: 'rgb(180, 3, 10)' }}>Darker red</span> adds a touch of warmth and energy, reflecting creativity and passion.
-            The <span style={{ color: '#1b1b1b' }}>#1b1b1b</span>, which is a nuanced black, offers a sleek and modern backdrop that isn't the same as pure black, giving the design a more refined and approachable feel.
+            The <span style={{ color: '#1b1b1b' }}>#1b1b1b</span>, which is a nuanced black, offers a sleek and modern backdrop that isnt the same as pure black, giving the design a more refined and approachable feel.
             This color is complemented by white, which provides a clear contrast for enhanced readability and a clean, minimalist aesthetic.
             Together, these colors blend warmth with sophistication, highlighting my design sensibilities and ensuring that the content stands out effectively.
           </p>
@@ -230,7 +230,7 @@ const StructureResearch = () => {
             The homepage had to make a strong first impression, while the About and Work pages were all about giving a deeper insight into my skills and experiences.
             I thought about adding animations to make things flahier and cooler, but I didnt want to overdo it or make them confusing, also a matter of time to experiment with. To me it was important to keep the site smooth and accessible.
             The real game-changer was looking at other portfolios for inspiration. I noticed how personal touches, like photos, really made a difference in making a portfolio feel more human and relatable.
-            In the end, every piece of research and every decision I made along the way was about creating a portfolio that wasn't just a collection of work, but a reflection of my journey and style.
+            In the end, every piece of research and every decision I made along the way was about creating a portfolio that wasnt just a collection of work, but a reflection of my journey and style.
           </p>
         </section>
         <section className={styles.section}>
