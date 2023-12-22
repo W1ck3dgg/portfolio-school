@@ -16,7 +16,7 @@ const PortfolioProject = () => {
     color: 'rgb(180, 3, 10)',
     textDecoration: 'none',
     cursor: 'pointer',
-    fontWeight: 'bold', 
+    fontWeight: 'bold',
   };
 
   return (
@@ -45,42 +45,48 @@ const PortfolioProject = () => {
             <strong>Main Question:</strong>
           </p>
           <p className={styles.sectionContent}>
-            How to create a good-looking and representative portfolio that will serve to showcase my work to the teachers? 
+            How to create a good-looking and representative portfolio that will serve to showcase my work to the teachers?
           </p>
           <p className={styles.sectionContent}>
-          <strong>Sub questions:</strong>  
+            <strong>Sub questions:</strong>
           </p>
           <p className={styles.sectionContent}>
-          1. Which front-end technology would be best for creating the portfolio? CMD Methods : Literature Study, Requirements List
+            1. Which front-end technology would be best for creating the portfolio? CMD Methods : Literature Study, Requirements List
           </p>
           <p className={styles.sectionContent}>
-          2. How to indicate if a portfolio is good-looking and representative?  CMD Methods : Literature Study, Usability Testing 
+            2. How to indicate if a portfolio is good-looking and representative?  CMD Methods : Literature Study, Usability Testing
           </p>
           <p className={styles.sectionContent}>
-          3. What elements to include in a portfolio? CMD Methods : Best, good and bad practices, Literature Study 
+            3. What elements to include in a portfolio? CMD Methods : Best, good and bad practices, Literature Study
           </p>
           <p className={styles.sectionContent}>
-          4.What expectations do teachers have from my portfolio?  CMD Methods : Prototyping, Usability Testing
+            4.What expectations do teachers have from my portfolio?  CMD Methods : Prototyping, Usability Testing
           </p>
         </section>
         <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Phases</h2>
+          <h2 className={styles.sectionTitle}>Phases</h2>
           <p className={styles.sectionContent}>
-            <strong>Research phase:</strong> During the research phase of this project, I had set myself a requirements list, a criteria that I wanted to fulfill. To begin with, we had the freedom to select how we want to code our portfolio, 
+            <strong>Research phase:</strong> During the research phase of this project, I had set myself a requirements list, a criteria that I wanted to fulfill. To begin with, we had the freedom to select how we want to code our portfolio,
             <Link legacyBehavior href="/code-choice" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (1)so this is how I decided to code my portfolio.</a></Link>
           </p>
           <p className={styles.sectionContent}>
-            Since I have never done a website portfolio before, I began my research on 
-            <Link legacyBehavior href="/structure-research" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (3)styling, components of portfolio, colors and structure</a></Link>. After I learned more about structure and styling, I wanted to see how professionals do it and get inspirated.
-            I looked at professional portfolios and saw that they have a common structure and pages. I really liked some of the styles, components and decided to 
-            <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (3)include them in my portfolio</a></Link>.
+            Since I have never done a website portfolio before, I began my research on
+            <Link legacyBehavior href="/structure-research" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (3)styling, components of portfolio, colors and structure</a></Link>.
+            After I learned more about structure and styling, I wanted to see how professionals do it and get inspirated.
+            I looked at professional portfolios and saw that they have a common structure and pages. I really liked some of the styles, components and decided to include them in my portfolio.
           </p>
           <p className={styles.sectionContent}>
             <strong>Design phase:</strong>
           </p>
           <p className={styles.sectionContent}>
-            After I was done with the research I began with some simple sketches, that slowly turned into a <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)prototype. </a></Link>I used Figma, for this project as it was easy to use and also accessible.
-            With each <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)teacher feedback</a></Link>, the prototype underwent different phases and changes, until it was finally up to a state that could implemented into a code.
+            After I was done with the research I began with some simple sketches, that slowly turned into a
+            <a href="https://www.figma.com/file/46WZ8T4Ke8ttfep28CRuMw/Untitled?type=design&node-id=0%3A1&mode=design&t=IqTrHLsO6syOvooB-1" style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)prototype</a>.
+            I used Figma, for this project as it was easy to use and also accessible.
+            With each
+            <Link legacyBehavior href="/target-aaudience" passHref>
+              <a style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)teacher feedback</a>
+            </Link>,
+            the prototype underwent different phases and changes, until it was finally up to a state that could be implemented into code.
           </p>
           <p className={styles.sectionContent}>
             <strong>Building and testing phase:</strong>
@@ -93,18 +99,18 @@ const PortfolioProject = () => {
           </p>
         </section>
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Result & Conclusion</h2>
+          <h2 className={styles.sectionTitle}>Result</h2>
           <p className={styles.sectionContent}>
-            Creating my portfolio website for semester 6 was hard and at the same time fun task to do. I developed further my javascript and design skills, which will help me with the rest of my studies. 
-            It allowed me to display the projects and skills I developed throughout the semester. 
-            This portfolio will serve to present my work to teachers, as well for personal reflection and growth. 
-            Building this portfolio website helped me see my progress, making it an essential tool for both self-assessment and development. 
+            Creating my portfolio website for semester 6 was hard and at the same time fun task to do. I developed further my javascript and design skills, which will help me with the rest of my studies.
+            It allowed me to display the projects and skills I developed throughout the semester.
+            This portfolio will serve to present my work to teachers, as well for personal reflection and growth.
+            Building this portfolio website helped me see my progress, making it an essential tool for both self-assessment and development.
           </p>
         </section>
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Retrospect</h2>
           <p className={styles.sectionContent}>
-            This project helped me realize it was more than just an assignment. It was a whole journey of self-development! I faced a lot of troubles along my way, from wondering how to design and structure my website to 
+            This project helped me realize it was more than just an assignment. It was a whole journey of self-development! I faced a lot of troubles along my way, from wondering how to design and structure my website to
             how to actually creating it. I used to work with this javascript framework during my last semester and I really enjoyed it so I wanted to further develop my skills with it.Maybe for my future projects I would try a different framework and then compare.
             I took inspiration from various good-looking portfolios of successful designers and also my fellow coleagues. I gained deeper appreciation for the work I had done over this semester while creating this portfolio.
             The feedback from my teachers definitely super valuable, providing me with insights and perspectives I had not thought of. I am so happy how my portfolio website turned out to be.

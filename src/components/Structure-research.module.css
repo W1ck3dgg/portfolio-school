@@ -35,7 +35,7 @@
   
   .sectionImage {
     flex: 1; 
-    max-width: 300px; 
+    max-width: 900px; 
     height: auto; 
     object-fit: cover; 
   }
