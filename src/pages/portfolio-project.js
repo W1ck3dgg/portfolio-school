@@ -51,7 +51,7 @@ const PortfolioProject = () => {
           <strong>Sub questions:</strong>  
           </p>
           <p className={styles.sectionContent}>
-          1. Which front-end technology would be best for creating the portfolio? CMD Methods : Literature Study 
+          1. Which front-end technology would be best for creating the portfolio? CMD Methods : Literature Study, Requirements List
           </p>
           <p className={styles.sectionContent}>
           2. How to indicate if a portfolio is good-looking and representative?  CMD Methods : Literature Study, Usability Testing 
@@ -67,11 +67,11 @@ const PortfolioProject = () => {
         <h2 className={styles.sectionTitle}>Phases</h2>
           <p className={styles.sectionContent}>
             <strong>Research phase:</strong> During the research phase of this project, I had set myself a requirements list, a criteria that I wanted to fulfill. To begin with, we had the freedom to select how we want to code our portfolio, 
-            <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (1)so this is how I decided to code my portfolio.</a></Link>
+            <Link legacyBehavior href="/code-choice" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (1)so this is how I decided to code my portfolio.</a></Link>
           </p>
           <p className={styles.sectionContent}>
             Since I have never done a website portfolio before, I began my research on 
-            <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (3)styling, components of portfolio, colors and structure</a></Link>. After I learned more about structure and styling, I wanted to see how professionals do it and get inspirated.
+            <Link legacyBehavior href="/structure-research" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (3)styling, components of portfolio, colors and structure</a></Link>. After I learned more about structure and styling, I wanted to see how professionals do it and get inspirated.
             I looked at professional portfolios and saw that they have a common structure and pages. I really liked some of the styles, components and decided to 
             <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (3)include them in my portfolio</a></Link>.
           </p>
@@ -80,7 +80,7 @@ const PortfolioProject = () => {
           </p>
           <p className={styles.sectionContent}>
             After I was done with the research I began with some simple sketches, that slowly turned into a <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)prototype. </a></Link>I used Figma, for this project as it was easy to use and also accessible.
-            With each <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)teacher feedback</a></Link>, the prototype underwent different phases and changes, until it was finally up to a state it could implemented as a code.
+            With each <Link legacyBehavior href="/target-audience" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)teacher feedback</a></Link>, the prototype underwent different phases and changes, until it was finally up to a state that could implemented into a code.
           </p>
           <p className={styles.sectionContent}>
             <strong>Building and testing phase:</strong>

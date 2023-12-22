@@ -97,7 +97,7 @@ export default function LearningOutcomes() {
               {outcome.items.map((item, itemIndex) => (
                 <li key={itemIndex}>
                 <Link legacyBehavior href={item.url}>
-                  <a className={styles.learningOutcomeListItemLink}>{item.name}</a>
+                  <a target='_blank' className={styles.learningOutcomeListItemLink}>{item.name}</a>
                 </Link>
               </li>
               ))}

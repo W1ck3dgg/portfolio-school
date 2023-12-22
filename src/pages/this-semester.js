@@ -19,9 +19,9 @@ const ThisSemester = () => {
         <section className={styles.semesterSection}>
           <h2 className={styles.sectionTitle}>What have I done this semester</h2>
           <div className={styles.cardsContainer}>
-            <div className={styles.card} style={{ backgroundImage: 'url(/wireframes.png)' }}>
+            {/* <div className={styles.card} style={{ backgroundImage: 'url(/wireframes.png)' }}>
               <div className={styles.cardText}>Wireframes</div>
-            </div>
+            </div> */}
             <a href="https://www.figma.com/file/46WZ8T4Ke8ttfep28CRuMw/Untitled?type=design&node-id=0%3A1&mode=design&t=IqTrHLsO6syOvooB-1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
                 <div className={styles.cardText}>Portfolio prototype</div>
@@ -32,9 +32,9 @@ const ThisSemester = () => {
                 <div className={styles.cardText}>Project prototypes</div>
               </div>
             </a>
-              <div className={styles.card} style={{ backgroundImage: 'url(/interview.png)' }}>
+              {/* <div className={styles.card} style={{ backgroundImage: 'url(/interview.png)' }}>
                 <div className={styles.cardText}>Interviews</div>
-              </div>
+              </div> */}
           </div>
         </section>
         <h2 className={styles.projectsTitle}>Explore my projects</h2>
