@@ -46,9 +46,11 @@ const ThisSemester = () => {
               <div className={styles.cardText}>Portfolio</div>
             </div>
             </a>
+            <a href="ddw" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
             <div className={styles.card} style={{ backgroundImage: 'url(/ddw.png)' }}>
               <div className={styles.cardText}></div>
             </div>
+            </a>
             <div className={styles.card} style={{ backgroundImage: 'url(/wwb.png)' }}>
               <div className={styles.cardText}></div>
             </div>

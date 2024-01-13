@@ -30,14 +30,9 @@ const About = () => {
             <p className={styles.testimonialText}>Presiyan always brings good energy to group projects and works hard to reach his goals.</p>
           </div>
           <div className={styles.testimonialCard}>
-            <img src="/avatar1.png" alt="Person 3" className={styles.testimonialAvatar} />
-            <h3 className={styles.testimonialName}>Saditim Imam</h3>
-            <p className={styles.testimonialText}>Opinion about me</p>
-          </div>
-          <div className={styles.testimonialCard}>
-            <img src="/avatar1.png" alt="Person 4" className={styles.testimonialAvatar} />
+            <img src="/mazoun.jpeg" alt="Person 4" className={styles.testimonialAvatar} />
             <h3 className={styles.testimonialName}>Mazoun Al Habsi</h3>
-            <p className={styles.testimonialText}>Opinion about me</p>
+            <p className={styles.testimonialText}>Working with Presiyan has been really cool. He's serious about getting work done on time but also knows how to have fun. He's reliable when we need things done, never giving up even when faced with obstacles. He's determined to finish what he starts, and he's good at working under pressure. It's been fun teaming up with Presiyan, and I totally think he's great.</p>
           </div>
           <div className={styles.testimonialCard}>
             <img src="/negin.png" alt="Person 5" className={styles.testimonialAvatar} />
