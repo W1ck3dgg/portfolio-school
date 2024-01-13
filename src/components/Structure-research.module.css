@@ -31,6 +31,7 @@
     display: flex;
     justify-content: center; 
     gap: 10px; 
+    padding: 10px;
   }
   
   .sectionImage {
@@ -38,4 +39,14 @@
     max-width: 900px; 
     height: auto; 
     object-fit: cover; 
+  }
+
+  .videoContainer {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+  }
+  
+  .videoContainer iframe {
+    max-width: 100%; 
   }
