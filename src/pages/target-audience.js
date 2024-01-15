@@ -16,7 +16,7 @@ const TargetAudience = () => {
           <Navbar />
           <ImageSection 
                 imagePath="/target-audience.png" 
-                text="TARGET AUDIENCE" 
+                text="TARGET AUDIENCE & FEEDBACK" 
                 onBackButtonClick={handleBackButtonClick}
             />
           <main className={styles.mainContent}>

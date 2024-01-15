@@ -54,7 +54,7 @@ const PortfolioProject = () => {
             1. Which front-end technology would be best for creating the portfolio? CMD Methods : Literature Study, Requirements List
           </p>
           <p className={styles.sectionContent}>
-            2. How to indicate if a portfolio is good-looking and representative?  CMD Methods : Literature Study, Usability Testing
+            2. How to indicate if a portfolio is good-looking and representative?  CMD Methods : Usability Testing
           </p>
           <p className={styles.sectionContent}>
             3. What elements to include in a portfolio? CMD Methods : Best, good and bad practices, Literature Study
@@ -65,6 +65,9 @@ const PortfolioProject = () => {
         </section>
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Phases</h2>
+          <p className={styles.sectionContent} style={{ color: 'rgb(180, 3, 10)'}}>
+             *Red highlighted text is clickable*
+          </p>
           <p className={styles.sectionContent}>
             <strong>Research phase:</strong> During the research phase of this project, I had set myself a requirements list, a criteria that I wanted to fulfill. To begin with, we had the freedom to select how we want to code our portfolio,
             <Link legacyBehavior href="/code-choice" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (1)so this is how I decided to code my portfolio.</a></Link>
@@ -99,7 +102,7 @@ const PortfolioProject = () => {
           </p>
         </section>
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Result</h2>
+          <h2 className={styles.sectionTitle}>Reflection</h2>
           <p className={styles.sectionContent}>
             Creating my portfolio website for semester 6 was hard and at the same time fun task to do. I developed further my javascript and design skills, which will help me with the rest of my studies.
             It allowed me to display the projects and skills I developed throughout the semester.
