@@ -4,6 +4,8 @@ import Image from 'next/image';
 import styles from './navbar.module.css';
 
 const Navbar = () => {
+
+
   return (
     <nav className={styles.navbar}>
       <Link href="/" legacyBehavior passHref>

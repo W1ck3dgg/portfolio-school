@@ -71,7 +71,7 @@ const TargetAudience = () => {
               </p>
             </section>
             <section className={styles.section}>
-              <h2 className={styles.sectionTitle}>Retrospect</h2>
+              <h2 className={styles.sectionTitle}>Retrospect & Conclusion</h2>
               <p className={styles.sectionContent}>
                 I believe my teachers and assessors were very experienced on this topic, and really gave me good feedback and their guidance definitely was benificial for my end-result. If I happen to work on a similar project 
                 I would ask different teachers from the same semester for feedback as I thought if I ask other teachers that are not my assessors might not be helpful as they might have different view and requirements,
