@@ -101,12 +101,12 @@ const PortfolioProject = () => {
             After looking up for possible solutions I found out that some old browser versions use different extension for fonts as for the pictures it was cache related issue that was quickly resolved. After several tests my website was looking already better and finalized.
           </p>
         </section>
-        <section className={styles.section}>
+        {/* <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Conclusion</h2>
           <p className={styles.sectionContent}>
             Conc.
           </p>
-        </section>
+        </section> */}
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Reflection</h2>
           <p className={styles.sectionContent}>

@@ -41,18 +41,18 @@ const learningOutcomesList = [
     title: "Investigative problem solving",
     description: "You formulate sub-questions pertaining to the primary question and answer these using relevant research methods. You use the conclusions of the sub-questions to justify (design) choices.",
     items: [
-      { name: "Item one", url: "/target-audience" },
-      { name: "Item Two", url: "/target-audience" },
-      { name: "Item Three", url: "/target-audience" },
+      // { name: "Item one", url: "/target-audience" },
+      // { name: "Item Two", url: "/target-audience" },
+      // { name: "Item Three", url: "/target-audience" },
     ],
   },
   {
     title: "Personal leadership",
     description: "You methodically reflect on your professional identity and personal development.",
     items: [
-      { name: "Item one", url: "/target-audience" },
-      { name: "Item Two", url: "/target-audience" },
-      { name: "Item Three", url: "/target-audience" },
+      // { name: "Item one", url: "/target-audience" },
+      // { name: "Item Two", url: "/target-audience" },
+      // { name: "Item Three", url: "/target-audience" },
     ],
   },
   {

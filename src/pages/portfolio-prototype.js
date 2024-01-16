@@ -9,7 +9,7 @@ const PPrototype = () => {
   const router = useRouter();
 
   const handleBackButtonClick = () => {
-    router.push('/this-semester');
+    router.push('/portfolio-project');
   };
 
   const textStyle = {
