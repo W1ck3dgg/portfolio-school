@@ -55,7 +55,7 @@ const TargetAudience = () => {
                 Research questions and add at least 2 DOT/CMD Methods for each question. 
               </p>
               <p className={styles.sectionContent}>
-                I went into canvas and checked the requirements. I understood the mentioned "why, how and conclusion/recommendation" framework. I adjusted my findings and updated my documents using that method.
+                I went into canvas and checked the requirements. I understood the mentioned why, how and conclusion/recommendation framework. I adjusted my findings and updated my documents using that method.
               </p>
             </section>
             <section className={styles.section}>
@@ -67,7 +67,7 @@ const TargetAudience = () => {
               <p className={styles.sectionContent}>
                  At this stage, I clearly knew what I had to work towards. I was focusing more on group project and left my personal project lacking a bit. But during the holidays I stepped up and filled the portfolio with more content.
                  I made use of an integrated reading guide in the main pages of my projects. During the first weeks of the new year I had feedback session with Paul and he liked the way I had my portfolio structured and it was easy to follow and read and he also saw that I had more content in there.
-                 He only gave me feedback to make "offline" documents for the final submission, in case my portfolio website gets shut down after the deadline and for archiving purposes. For which I created 4 separate Reading guides for each project I worked on.
+                 He only gave me feedback to make offline documents for the final submission, in case my portfolio website gets shut down after the deadline and for archiving purposes. For which I created 4 separate Reading guides for each project I worked on.
               </p>
             </section>
             <section className={styles.section}>

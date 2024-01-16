@@ -85,8 +85,8 @@ const PPrototype = () => {
         <img src="/rgafter.png" alt="Poffertjes 1" className={styles.sectionImage} />
       </div>
       <p className={styles.sectionContent}>
-        Another change that I made was to the now called learning outcomes page. I had a talk with Stan, asking for feedback and he advised me to switch the previous "My work" page to 
-        "learning outcomes" page where I would list all my work put in their corresponding learning outcome category. 
+        Another change that I made was to the now called learning outcomes page. I had a talk with Stan, asking for feedback and he advised me to switch the previous My work page to 
+        learning outcomes page where I would list all my work put in their corresponding learning outcome category. 
       </p>
       <div className={styles.imageRow}>
         <img src="/lobefore.png" alt="Poffertjes 1" className={styles.sectionImage} />
