@@ -61,7 +61,7 @@ const TargetAudience = () => {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>Third Submission Summary</h2>
               <p className={styles.sectionContent}>
-                 My third canvas feedback was a bit negative, and I was expecting it, because at the time of the submission I didn't really update my portfolio and didn't fill it up with
+                 My third canvas feedback was a bit negative, and I was expecting it, because at the time of the submission I didnt really update my portfolio and didnt fill it up with
                  content that the teachers could give enough feedback. I needed to submit and finalize a reading guide for each project and fill the gaps I had - Learning outcomes, Group Project, Internation weeks.  
               </p>
               <p className={styles.sectionContent}>
