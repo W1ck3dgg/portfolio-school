@@ -80,10 +80,10 @@ const UserTesting = () => {
                Conclusion:
               </p>
               <p className={styles.sectionContent}>
-              The user testing session with the teacher provided insightful feedback on the Figma prototype of the portfolio. The initial impressions were highly positive, with the cloud theme and white color palette creating a 'heavenly' and clear aesthetic. The portfolio's structure, especially the grid layout displaying four different projects, was logical and effective in conveying the purpose and showcasing wireframes.
+              The user testing session with the teacher provided insightful feedback on the Figma prototype of the portfolio. The initial impressions were highly positive, with the cloud theme and white color palette creating a heavenly and clear aesthetic. The portfolios structure, especially the grid layout displaying four different projects, was logical and effective in conveying the purpose and showcasing wireframes.
               Despite these strengths, the session highlighted areas for improvement. It was suggested to enhance the presentation by focusing on the development phases of projects, rather than just the final outcomes. This could offer a more comprehensive understanding of the creative process. The inclusion of testimonials was a well-received feature, adding a personal and credible touch to the portfolio.
-              The feedback also emphasized the need for better visual balance. Suggestions included using red for emphasis instead of bold text and adjusting font sizes for better readability and visual appeal. The teacher's appreciation of the dual categorization, separating learning outcomes from specific projects, highlighted its effectiveness in catering to diverse viewers.
-              In summary, the user testing was valuable in affirming the portfolio's thematic and structural strengths while also identifying opportunities for refinement in visual balance and content depth. This feedback will be instrumental in further enhancing the portfolio's appeal and effectiveness.
+              The feedback also emphasized the need for better visual balance. Suggestions included using red for emphasis instead of bold text and adjusting font sizes for better readability and visual appeal. The teachers appreciation of the dual categorization, separating learning outcomes from specific projects, highlighted its effectiveness in catering to diverse viewers.
+              In summary, the user testing was valuable in affirming the portfolios thematic and structural strengths while also identifying opportunities for refinement in visual balance and content depth. This feedback will be instrumental in further enhancing the portfolios appeal and effectiveness.
               </p>
             </section>
             <section className={styles.section}>
@@ -148,7 +148,7 @@ const UserTesting = () => {
               The portfolios heavenly theme with clouds and white color scheme made a strong, positive first impression, and its clear, logical structure for showcasing work was well-received. 
               However, areas for improvement were identified, including the need for better visual balance in font weight and color usage, and a suggestion to focus more on project phases or assignments. 
               The dual categorization of the portfolio, emphasizing both learning outcomes and specific projects, was particularly praised. 
-              Overall, this session offered valuable insights for refining the portfolio's design and content presentation.
+              Overall, this session offered valuable insights for refining the portfolios design and content presentation.
               </p>
             </section>
           </main>
