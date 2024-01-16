@@ -83,10 +83,10 @@ const PortfolioProject = () => {
           </p>
           <p className={styles.sectionContent}>
             After I was done with the research I began with some simple sketches, that slowly turned into a
-            <a href="https://www.figma.com/file/46WZ8T4Ke8ttfep28CRuMw/Untitled?type=design&node-id=0%3A1&mode=design&t=IqTrHLsO6syOvooB-1" style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)prototype</a>.
+            <Link legacyBehavior href="/portfolio-prototype" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)Sketching & prototype</a></Link>.
             I used Figma, for this project as it was easy to use and also accessible.
             With each
-            <Link legacyBehavior href="/target-aaudience" passHref>
+            <Link legacyBehavior href="/target-audience" passHref>
               <a style={linkStyle} target="_blank" rel="noopener noreferrer"> (4)teacher feedback</a>
             </Link>,
             the prototype underwent different phases and changes, until it was finally up to a state that could be implemented into code.
@@ -98,7 +98,13 @@ const PortfolioProject = () => {
             In the beginning I had run into some issues with my code, because Next.js had a big update and was now using app routing, where during my last work with the framework there was a folder called pages where all web pages would go.
             Eventually I managed to fix the error, I had to start over and there was an option to select the other method of working, the one I was used to. Coding a website is really time consuming and sometimes it can get really frustrating if
             there is an error that can not be found. I was constantly doing <Link legacyBehavior href="/user-testings" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer"> (2)testings</a></Link> with another colleagues of mine, which helped me resolve some of the issues and do some minor adjustments. I noticed an issue with some of my fonts not applying properly and some of the images not loading on some of the browsers.
-            After looking up for possible solutions I found out that some old browser versions use different extension for fonts as for the pictures it was cache related issue that was quickly resolved. After several tests my website was looking already better and more final-look.
+            After looking up for possible solutions I found out that some old browser versions use different extension for fonts as for the pictures it was cache related issue that was quickly resolved. After several tests my website was looking already better and finalized.
+          </p>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Conclusion</h2>
+          <p className={styles.sectionContent}>
+            Conc.
           </p>
         </section>
         <section className={styles.section}>

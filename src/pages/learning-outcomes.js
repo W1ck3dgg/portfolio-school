@@ -10,36 +10,31 @@ const learningOutcomesList = [
     title: "User interaction (analysis & advice)",
     description: "You analyze the user, the interaction, and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design.",
     items: [
-      { name: "Item one", url: "/target-audience" },
-      { name: "Item Two", url: "/target-audience" },
-      { name: "Item Three", url: "/target-audience" },
+      { name: "Framework research", url: "/code-choice" },
+      { name: "Design & Structure research (portfolio)", url: "/structure-research" },
     ],
   },
   {
     title: "User interaction (execution & validation)",
     description: "You execute and evaluate the user experience of an interactive product. You document the development process for the stakeholders.",
     items: [
-      { name: "Item one", url: "/target-audience" },
-      { name: "Item Two", url: "/target-audience" },
-      { name: "Item Three", url: "/target-audience" },
+      { name: "Usability testing(portfolio)", url: "/changelink" },
     ],
   },
   {
     title: "Software design and realisation",
     description: "You create & design software with existing components or libraries using predetermined quality criteria and version control.",
     items: [
-      { name: "Item one", url: "/target-audience" },
-      { name: "Item Two", url: "/target-audience" },
-      { name: "Item Three", url: "/target-audience" },
+      { name: "Project Prototype", url: "https://www.figma.com/file/f6lvw1UVxtUMA4fqSOYVNj/DataDash_Mockups?type=design&node-id=145%3A125&mode=design&t=IqTrHLsO6syOvooB-1" },
+      { name: "Sketching & Portfolio Prototype", url: "portfolio-prototype" },
     ],
   },
   {
     title: "Future-oriented organisation",
     description: "You carry out a problem analysis and on that basis, you determine the definitive problem and elaborate on this in a project plan. ",
     items: [
-      { name: "Item one", url: "/target-audience" },
-      { name: "Item Two", url: "/target-audience" },
-      { name: "Item Three", url: "/target-audience" },
+      { name: "Portfolio Project plan", url: "/Project Plan - Portfolio.pdf" },
+      { name: "Group Project plan", url: "/Project Plan DataDash V2.pdf" },
     ],
   },
   {
@@ -64,9 +59,8 @@ const learningOutcomesList = [
     title: "Goal-oriented interaction",
     description: "You communicate with different stakeholders and team members about the ICT assignment, taking into account an international context.",
     items: [
-      { name: "Item one", url: "/target-audience" },
-      { name: "Item Two", url: "/target-audience" },
-      { name: "Item Three", url: "/target-audience" },
+      { name: "Dutch Design Week", url: "/ddw" },
+      { name: "WeyWeyWeb", url: "/weyweyweb" },
     ],
   },
 ];
