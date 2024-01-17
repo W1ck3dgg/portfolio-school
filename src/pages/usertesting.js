@@ -85,6 +85,16 @@ const UserTesting = () => {
               The feedback also emphasized the need for better visual balance. Suggestions included using red for emphasis instead of bold text and adjusting font sizes for better readability and visual appeal. The teachers appreciation of the dual categorization, separating learning outcomes from specific projects, highlighted its effectiveness in catering to diverse viewers.
               In summary, the user testing was valuable in affirming the portfolios thematic and structural strengths while also identifying opportunities for refinement in visual balance and content depth. This feedback will be instrumental in further enhancing the portfolios appeal and effectiveness.
               </p>
+              <div className={styles.videoContainer}>
+              <iframe
+                width="900"
+                height="576"
+                src="https://www.youtube.com/embed/lR-M87QpXGs?si=xcGPKWU4pJc7GExK"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen>
+              </iframe>
+              </div>
             </section>
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>Usability Testing 2</h2>
@@ -138,18 +148,31 @@ const UserTesting = () => {
             <section className={styles.section}>
               <h2 className={styles.sectionTitle}>Teacher testing summary & Conclusion</h2>
               <p className={styles.sectionContent}>
-              First impressions : definitely my portfolio, heavenly feeling because of the clouds and the white colors, very clear menu, a logo(indeveleopment), a feeling of one pager, expecting work to be down(explaining animations) Structure of showcasing work is logical, grid with 4 different products(explaining the purpose, wireframe screen), explaining the bottom project screen, getting into explanations, getting feedback on it instead of project do phases or assignment, quickly caught up on testimonials, thinks its a good idea, asked about the fact 1 to see how different people understand it, some pictures felt loose(images of products/assignments), thinks red is better than bold to specify its important, font is heavy, the balance is a bit off, size-wise as well has to be balanced, clouds were liked(keeping the thematic everywhere), liked the fact the portfolio was presented in two different categories ( learning outcome wise and project specific), the distingion is important.
+               Since I have tested my portfolio at an earlier stage with him, he imediately noticed significant changes and improvements. In the first page, he commented about the explore my work not being
+               completely visible, or not grabbing enough attention. He easily navigated using the Call-to-action button in the landing page. He managed to find my projects quick and saw all of my available projects
+               and when I asked him to select one he chose the portfolio one, maybe because he was curious about my progress and wanted find out more about it. I then asked him to look for any research I have done, in the beginning he 
+               found some difficulties, because he skimmed through the text, but then successfully navigated by clickin on the red text. When asked to go a page back, he knew about the go back button, because he saw it, but when he was
+               scrolled down on the page the button was not visible enough so he used the browser arrows instead. 
+              </p>
+              <p className={styles.sectionContent} style={{ fontWeight: 'bold', color: 'rgb(180, 3, 10)' }}>
+               Conclusion:
               </p>
               <p className={styles.sectionContent}>
-                Conclusion:
+              The second user testing, was mostly positive. He mentioned that my website improved from the last user testing and that the call-to-action buttons were really helpful and easy to find. He gave me remarks
+              on the this semester page, mentioning that he thinks that including separate work items like figma prototype should not be there, but in the corresponding projects and make use of the space for something else.
+              He also gave me remarks about the go back button, being hard to find after he scrolled down in any of the pages. A following button was suggested as an improvement and thinks would be more efficient than having to scroll, 
+              although he is used to using the browser arrows instead.
               </p>
-              <p className={styles.sectionContent}>
-              The user testing session with the teacher provided crucial feedback on the Figma portfolio prototype. 
-              The portfolios heavenly theme with clouds and white color scheme made a strong, positive first impression, and its clear, logical structure for showcasing work was well-received. 
-              However, areas for improvement were identified, including the need for better visual balance in font weight and color usage, and a suggestion to focus more on project phases or assignments. 
-              The dual categorization of the portfolio, emphasizing both learning outcomes and specific projects, was particularly praised. 
-              Overall, this session offered valuable insights for refining the portfolios design and content presentation.
-              </p>
+              <div className={styles.videoContainer}>
+              <iframe
+                width="900"
+                height="576"
+                src="https://www.youtube.com/embed/rSC1YAh6lZA?si=wxb5Bu2YWteNqkiD"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen>
+              </iframe>
+              </div>
             </section>
           </main>
         </div>

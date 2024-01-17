@@ -61,6 +61,12 @@
   font-size: 22px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
+.cardTextB {
+  display: inline-block;
+  color: black;
+  font-weight: 900;
+  font-size: 14px;
+}
 
 .cardTextWrapper {
   background-color: rgba(0, 0, 0, 0.5); 
@@ -71,7 +77,6 @@
 .projectsSection {
   text-align: center;
   margin: 40px 0;
-  background-color: rgb(27, 27, 27);
   color: white;
   position: relative;
   padding-bottom: 40px; 

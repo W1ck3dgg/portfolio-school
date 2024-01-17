@@ -16,30 +16,8 @@ const ThisSemester = () => {
       <Navbar />
       <main className={styles.mainContent}>
         <ImageSection imagePath="/section-image-semester.jpg" onBackButtonClick={handleBackButtonClick} />
-        <section className={styles.semesterSection}>
-          <h2 className={styles.sectionTitle}>What have I done this semester</h2>
-          <div className={styles.cardsContainer}>
-            {/* <div className={styles.card} style={{ backgroundImage: 'url(/wireframes.png)' }}>
-              <div className={styles.cardText}>Wireframes</div>
-            </div> */}
-            <a href="https://www.figma.com/file/46WZ8T4Ke8ttfep28CRuMw/Untitled?type=design&node-id=0%3A1&mode=design&t=IqTrHLsO6syOvooB-1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-              <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
-                <div className={styles.cardText}>Portfolio prototype</div>
-              </div>
-            </a>
-            <a href="https://www.figma.com/file/f6lvw1UVxtUMA4fqSOYVNj/DataDash_Mockups?type=design&node-id=145%3A125&mode=design&t=IqTrHLsO6syOvooB-1" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-              <div className={styles.card} style={{ backgroundImage: 'url(/figma.png)' }}>
-                <div className={styles.cardText}>Project prototypes</div>
-              </div>
-            </a>
-              {/* <div className={styles.card} style={{ backgroundImage: 'url(/interview.png)' }}>
-                <div className={styles.cardText}>Interviews</div>
-              </div> */}
-          </div>
-        </section>
-        <h2 className={styles.projectsTitle}>Explore my projects</h2>
         <section className={styles.projectsSection}>
-          <div className={styles.projectsLabel}>My Projects</div>
+        <h2 className={styles.sectionTitle}>My Projects</h2>
           <div className={styles.cardsContainer}>
           <a href="portfolio-project" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
             <div className={styles.card} style={{ backgroundImage: 'url(/portfolio.png)' }}>
@@ -59,6 +37,26 @@ const ThisSemester = () => {
             <div className={styles.card} style={{ backgroundImage: 'url(/group-project.png)' }}>
               <div className={styles.cardText}>Group project</div>
             </div>
+          </div>
+        </section>
+        <section className={styles.semesterSection}>
+          <h2 className={styles.sectionTitle}>Reading Guides</h2>
+          <div className={styles.cardsContainer}>
+            <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+              <div className={styles.card} style={{ backgroundImage: 'url(/pdf.jpg)' }}>
+                <div className={styles.cardTextB}>Portfolio Reading Guide</div>
+              </div>
+            </a>
+            <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+              <div className={styles.card} style={{ backgroundImage: 'url(/pdf.jpg)' }}>
+                <div className={styles.cardTextB}>Project Reading Guide</div>
+              </div>
+            </a>
+            <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+              <div className={styles.card} style={{ backgroundImage: 'url(/pdf.jpg)' }}>
+                <div className={styles.cardTextB}>Internation Reading Guide</div>
+              </div>
+            </a>
           </div>
         </section>
       </main>

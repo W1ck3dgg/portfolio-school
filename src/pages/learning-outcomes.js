@@ -18,7 +18,7 @@ const learningOutcomesList = [
     title: "User interaction (execution & validation)",
     description: "You execute and evaluate the user experience of an interactive product. You document the development process for the stakeholders.",
     items: [
-      { name: "Usability testing(portfolio)", url: "/changelink" },
+      { name: "Usability testing(portfolio)", url: "/usertesting" },
     ],
   },
   {

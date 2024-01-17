@@ -39,3 +39,13 @@
     height: auto; 
     object-fit: cover; 
   }
+  
+  .videoContainer {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+  }
+  
+  .videoContainer iframe {
+    max-width: 100%; 
+  }
