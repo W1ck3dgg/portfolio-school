@@ -54,7 +54,7 @@ const ThisSemester = () => {
             </a>
             <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <div className={styles.card} style={{ backgroundImage: 'url(/pdf.jpg)' }}>
-                <div className={styles.cardTextB}>Internation Reading Guide</div>
+                <div className={styles.cardTextB}>Int. weeks Reading Guide</div>
               </div>
             </a>
           </div>
