@@ -149,7 +149,7 @@ const GroupProject = () => {
             <strong>Conclusion</strong>
           </p>
           <div className={styles.imageRow}>
-          <img src="/Brainstorming.png" alt="Image 1" className={styles.sectionImageB} />
+          <img src="/brainstorming.png" alt="Image 1" className={styles.sectionImageB} />
           </div>
         </section>
         <section className={styles.section}>
@@ -595,9 +595,21 @@ const GroupProject = () => {
             <strong>Conclusion</strong>
           </p>
           <p className={styles.sectionContent}>
-           Link for Git repository: https://github.com/W1ck3dgg/Group3
+           Link for Git repository: <Link legacyBehavior href="https://github.com/W1ck3dgg/Group3" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer">Git Hub</a></Link>
+          </p>
+          <p className={styles.sectionContent}>
            Video:
           </p>
+          <div className={styles.videoContainer}>
+           <iframe
+            width="900"
+            height="576"
+            src="https://www.youtube.com/embed/gnGo4AKUNjk?si=gm53jJG8G_i4lSlJ"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen>
+           </iframe>
+          </div>
         </section>
         <section className={styles.sectionB}>
         <h2 className={styles.sectionTitle} style={{ color: 'rgb(180, 3, 10)' }}>End of project - Conclusion, Reflection and Retrospect</h2>
