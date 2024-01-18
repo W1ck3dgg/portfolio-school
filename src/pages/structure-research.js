@@ -29,8 +29,8 @@ const StructureResearch = () => {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Introduction</h2>
           <p className={styles.sectionContent}>
-            After I was ready researching the framework it was time to research the structure of a portfolio, what should be included,
-            how I can design and also see how profressional portfolios look like, to get a better idea and inspiration.
+          After I was ready to research the framework it was time to research the structure of a portfolio, what should be included, 
+          how I can design and also see how professional portfolios look like, to get a better idea and inspiration.
           </p>
           {/* <div className={styles.imageRow}>
             <img src="/change.png" alt="Image 1" className={styles.sectionImage} />

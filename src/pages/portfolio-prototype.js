@@ -89,13 +89,13 @@ const PPrototype = () => {
         learning outcomes page where I would list all my work put in their corresponding learning outcome category. 
       </p>
       <div className={styles.imageRow}>
-        <img src="/lobefore.png" alt="Poffertjes 1" className={styles.sectionImage} />
+        <img src="/lobefore1.png" alt="Poffertjes 1" className={styles.sectionImage} />
       </div>
       <p className={styles.sectionContent}>
         On the image above, I have the old style of listing different type of work together, and the image bellow, the work is divided and put in the learning outcome categories. 
       </p>
       <div className={styles.imageRow}>
-        <img src="/lochange.png" alt="Poffertjes 1" className={styles.sectionImage} />
+        <img src="/lochange1.png" alt="Poffertjes 1" className={styles.sectionImage} />
       </div>
     </section>
         <section className={styles.section}>

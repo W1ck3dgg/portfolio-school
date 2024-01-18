@@ -57,7 +57,7 @@ const PortfolioProject = () => {
             2. How to indicate if a portfolio is good-looking and representative?  CMD Methods : Usability Testing
           </p>
           <p className={styles.sectionContent}>
-            3. What elements to include in a portfolio? CMD Methods : Best, good and bad practices, Literature Study
+            3. What elements to include in a portfolio? CMD Methods : Best, good and bad practices, Literature Study, Requirements List
           </p>
           <p className={styles.sectionContent}>
             4.What expectations do teachers have from my portfolio?  CMD Methods : Prototyping, Usability Testing
