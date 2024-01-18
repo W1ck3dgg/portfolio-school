@@ -39,7 +39,7 @@ const GroupProject = () => {
           <h2 className={styles.sectionTitle}>Problem</h2>
           <p className={styles.sectionContent}>
           Journalists in Gilze en Rijen convene weekly to collaborate on news articles. Presently, the journalists are obliged to write the important points from these meetings manually. 
-          This is an issue as it consumes a significant amount of the journalist's time, time that could have been better spent on conducting research or engaging in discussing various topics. 
+          This is an issue as it consumes a significant amount of the journalists time, time that could have been better spent on conducting research or engaging in discussing various topics. 
           </p>
         </section>
         <section className={styles.section}>
