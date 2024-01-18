@@ -146,7 +146,7 @@ const UserTesting = () => {
               </p>
             </section>
             <section className={styles.section}>
-              <h2 className={styles.sectionTitle}>Teacher testing summary & Conclusion</h2>
+              <h2 className={styles.sectionTitle}>D. Gunchev testing summary & Conclusion</h2>
               <p className={styles.sectionContent}>
                Since I have tested my portfolio at an earlier stage with him, he imediately noticed significant changes and improvements. In the first page, he commented about the explore my work not being
                completely visible, or not grabbing enough attention. He easily navigated using the Call-to-action button in the landing page. He managed to find my projects quick and saw all of my available projects

@@ -1,0 +1,64 @@
+.section {
+    margin-bottom: 2em;
+    padding: 2.5em; 
+}
+
+/* .section:nth-child(odd) {
+    background-color: #fff
+}
+
+
+.section:nth-child(even) {
+    background-color: #f0f0f0; 
+} */
+
+.sectionB {
+    margin-bottom: 2em;
+    padding: 2.5em;
+    background-color: #f0f0f0;
+}
+  
+.sectionTitle {
+    font-size: 1.5em;
+    color: #1b1b1b; 
+    font-family: 'Media Sans', sans-serif;
+    margin-right: 10em;
+    margin-left: 6.5em; 
+}
+  
+.sectionContent {
+    font-size: 1em;
+    color: #333;
+    margin-right: 10em;
+    margin-left: 10em; 
+}
+
+.imageRow {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    padding: 10px;
+  }
+  
+  .sectionImage {
+    flex: 1; 
+    max-width: 600px; 
+    height: auto; 
+    object-fit: cover; 
+  }
+  .sectionImageB {
+    flex: 1; 
+    max-width: 1400px; 
+    height: auto; 
+    object-fit: cover; 
+  }
+
+  .videoContainer {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+  }
+  
+  .videoContainer iframe {
+    max-width: 100%; 
+  }

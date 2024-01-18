@@ -34,9 +34,11 @@ const ThisSemester = () => {
               <div className={styles.cardText}></div>
             </div>
             </a>
+            <a href="group-project" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
             <div className={styles.card} style={{ backgroundImage: 'url(/group-project.png)' }}>
               <div className={styles.cardText}>Group project</div>
             </div>
+            </a>
           </div>
         </section>
         <section className={styles.semesterSection}>
