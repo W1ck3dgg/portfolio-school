@@ -45,18 +45,15 @@ const ThisSemester = () => {
           <h2 className={styles.sectionTitle}>Reading Guides</h2>
           <div className={styles.cardsContainer}>
             <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-              <div className={styles.card} style={{ backgroundImage: 'url(/pdf.jpg)' }}>
-                <div className={styles.cardTextB}>Portfolio Reading Guide</div>
+              <div className={styles.card} style={{ backgroundImage: 'url(/prg.png)' }}>
               </div>
             </a>
             <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-              <div className={styles.card} style={{ backgroundImage: 'url(/pdf.jpg)' }}>
-                <div className={styles.cardTextB}>Project Reading Guide</div>
+              <div className={styles.card} style={{ backgroundImage: 'url(/gprg.png)' }}>
               </div>
             </a>
             <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-              <div className={styles.card} style={{ backgroundImage: 'url(/pdf.jpg)' }}>
-                <div className={styles.cardTextB}>Int. weeks Reading Guide</div>
+              <div className={styles.card} style={{ backgroundImage: 'url(/iwrg.png)' }}>
               </div>
             </a>
           </div>
