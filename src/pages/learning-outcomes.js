@@ -10,7 +10,7 @@ const learningOutcomesList = [
     title: "User interaction (analysis & advice)",
     description: "You analyze the user, the interaction, and the user experience, also taking state of the art interactive technologies into account. You select a suitable design process to be able to advise on UX interventions based on a validated UX design.",
     items: [
-      { name: "Framework research", url: "/code-choice" },
+      { name: "Framework research (portfolio)", url: "/code-choice" },
       { name: "Design & Structure research (portfolio)", url: "/structure-research" },
     ],
   },
@@ -27,6 +27,7 @@ const learningOutcomesList = [
     items: [
       { name: "Project Prototype", url: "https://www.figma.com/file/f6lvw1UVxtUMA4fqSOYVNj/DataDash_Mockups?type=design&node-id=145%3A125&mode=design&t=IqTrHLsO6syOvooB-1" },
       { name: "Sketching & Portfolio Prototype", url: "portfolio-prototype" },
+      { name: "Creating react next.js Portfolio Project & Git", url: "https://github.com/W1ck3dgg/portfolio-school" },
     ],
   },
   {
@@ -41,7 +42,7 @@ const learningOutcomesList = [
     title: "Investigative problem solving",
     description: "You formulate sub-questions pertaining to the primary question and answer these using relevant research methods. You use the conclusions of the sub-questions to justify (design) choices.",
     items: [
-      // { name: "Item one", url: "/target-audience" },
+      { name: "Research questions and methods answered in Reading Guide", url: "/Reading Guide Portfolio.pdf" },
       // { name: "Item Two", url: "/target-audience" },
       // { name: "Item Three", url: "/target-audience" },
     ],
@@ -50,7 +51,7 @@ const learningOutcomesList = [
     title: "Personal leadership",
     description: "You methodically reflect on your professional identity and personal development.",
     items: [
-      // { name: "Item one", url: "/target-audience" },
+      { name: "Personal goals, learning objectives mentioned in the Reading Guide", url: "/Reading Guide Portfolio.pdf" },
       // { name: "Item Two", url: "/target-audience" },
       // { name: "Item Three", url: "/target-audience" },
     ],

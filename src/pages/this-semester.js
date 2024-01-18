@@ -44,7 +44,7 @@ const ThisSemester = () => {
         <section className={styles.semesterSection}>
           <h2 className={styles.sectionTitle}>Reading Guides</h2>
           <div className={styles.cardsContainer}>
-            <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <a href="/Reading Guide Portfolio.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <div className={styles.card} style={{ backgroundImage: 'url(/prg.png)' }}>
               </div>
             </a>
