@@ -615,11 +615,11 @@ const GroupProject = () => {
           </p>
           <p className={styles.sectionContent}>
           Our group took on various activities to create user-friendly tool for journalists in Gilze en Rijen. The project adressed the problem of journalists spending excessive time manually writing down key points from municipality meetings in order to create an article.
-          Through various sprints, we engaged in activities like research poster creation, literature study, expert interviews, and brainstorming sessions. These efforts were crucial in understanding the journalists' data gathering processes, their daily workflow, and the tools they currently use. Our research revealed the necessity for a platform that is easily navigable and meets journalists' specific needs without drastically changing their current systems.
-          Our development process included creating personas, user stories, and mock-ups to visualize our product, ensuring it aligns with the journalists' requirements. We focused on user-friendly design, adhering to feedback from stakeholders and ensuring the tool integrated seamlessly into the journalists' existing workflow.
+          Through various sprints, we engaged in activities like research poster creation, literature study, expert interviews, and brainstorming sessions. These efforts were crucial in understanding the journalists data gathering processes, their daily workflow, and the tools they currently use. Our research revealed the necessity for a platform that is easily navigable and meets journalists specific needs without drastically changing their current systems.
+          Our development process included creating personas, user stories, and mock-ups to visualize our product, ensuring it aligns with the journalists requirements. We focused on user-friendly design, adhering to feedback from stakeholders and ensuring the tool integrated seamlessly into the journalists existing workflow.
           Prototype creation and iterations allowed us to refine the tool, with usability testing providing valuable insights. Feedback from journalists like Fabian helped us understand the practicality of our tool in their daily work and guided us to make necessary improvements.
           The project culminated in coding various functionalities to represent our tool, utilizing technologies like React and external APIs.
-          Overall, the project was a success in designing a tool that enhances journalists' efficiency and workflow, marking a significant contribution to the field of data journalism and media design.
+          Overall, the project was a success in designing a tool that enhances journalists efficiency and workflow, marking a significant contribution to the field of data journalism and media design.
           </p>
           <p className={styles.sectionContent}>
             <strong>Reflection</strong>
