@@ -236,8 +236,20 @@ const StructureResearch = () => {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>References</h2>
           <p className={styles.sectionContent}>
-            *add*
+          www.youtube.com. (n.d.). GOOD Vs BAD Design Portfolios (With Examples). [online] Available at: https://www.youtube.com/watch?v=0VGc7jrD9zo [Accessed Oct. 2023].
           </p>
+          <p className={styles.sectionContent}>
+          Spivak, E. (2023). How To Make a Portfolio in 10 Steps. [online] Wix Blog. Available at: https://www.wix.com/blog/how-to-make-online-design-portfolio-guide?utm_source=google&utm_medium=cpc&utm_campaign=16501254681%5e134604029936&experiment_id=%5e%5e586430767399%5e%5e_DSA [Accessed Oct. 2023].
+            </p>
+            <p className={styles.sectionContent}>
+            Webflow. (n.d.). 8 things to consider when building your portfolio website | Webflow Blog. [online] Available at: https://webflow.com/blog/8-things-to-consider-when-building-your-portfolio-website?utm_source=google&utm_medium=search&utm_campaign=SS-GoogleSearch-Nonbrand-DynamicSearchAds-Global&utm_term=aud-519773332254:dsa-1480385100845___617245336972__ [Accessed Oct. 2023].‌
+            </p>
+            <p className={styles.sectionContent}>
+            Brealey, J. (2017). 10 tips for building a killer portfolio website. [online] Creative Bloq. Available at: https://www.creativebloq.com/portfolios/tips-portfolio-website-4137460.
+            </p>
+            <p className={styles.sectionContent}>
+            Webflow. (n.d.). 10 stunning web portfolio examples | Webflow Blog. [online] Available at: https://webflow.com/blog/web-design-portfolios?utm_source=google&utm_medium=search&utm_campaign=SS-GoogleSearch-Nonbrand-DynamicSearchAds-Global&utm_term=aud-584036164525:dsa-1729073412468___617245336975__ [Accessed Oct. 2023].
+            </p>
         </section>
       </main>
     </div>

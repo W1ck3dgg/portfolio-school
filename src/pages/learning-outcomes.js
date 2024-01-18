@@ -12,22 +12,33 @@ const learningOutcomesList = [
     items: [
       { name: "Framework research (portfolio)", url: "/code-choice" },
       { name: "Design & Structure research (portfolio)", url: "/structure-research" },
+      { name: "Poster Literature study (group project)", url: "/group-project" },
+      { name: "Brainstorming & Cardsorting (group project)", url: "/group-project" },
+      { name: "Expert Interview (group project)", url: "/group-project" },
+      { name: "Persona (group project)", url: "/group-project" },
+      { name: "Poster (group project)", url: "/group-project" },
     ],
   },
   {
     title: "User interaction (execution & validation)",
     description: "You execute and evaluate the user experience of an interactive product. You document the development process for the stakeholders.",
     items: [
-      { name: "Usability testing(portfolio)", url: "/usertesting" },
+      { name: "Usability Testing(portfolio)", url: "/usertesting" },
+      { name: "User Stories (group project)", url: "/group-project" },
+      { name: "MoSCow Table (group project)", url: "/group-project" },
+      { name: "Usability Testing (group project)", url: "/group-project" },
     ],
   },
   {
     title: "Software design and realisation",
     description: "You create & design software with existing components or libraries using predetermined quality criteria and version control.",
     items: [
-      { name: "Project Prototype", url: "https://www.figma.com/file/f6lvw1UVxtUMA4fqSOYVNj/DataDash_Mockups?type=design&node-id=145%3A125&mode=design&t=IqTrHLsO6syOvooB-1" },
+      { name: "Project Prototype(link)", url: "https://www.figma.com/file/f6lvw1UVxtUMA4fqSOYVNj/DataDash_Mockups?type=design&node-id=145%3A125&mode=design&t=IqTrHLsO6syOvooB-1" },
       { name: "Sketching & Portfolio Prototype", url: "portfolio-prototype" },
       { name: "Creating react next.js Portfolio Project & Git", url: "https://github.com/W1ck3dgg/portfolio-school" },
+      { name: "Mock-ups (group project)", url: "/group-project" },
+      { name: "Prototypes(Group project documentation)", url: "/group-project" },
+      { name: "Creating react Paraphrasing tool (Group Project & Git link)", url: "https://github.com/W1ck3dgg/Group3" },
     ],
   },
   {
@@ -43,7 +54,7 @@ const learningOutcomesList = [
     description: "You formulate sub-questions pertaining to the primary question and answer these using relevant research methods. You use the conclusions of the sub-questions to justify (design) choices.",
     items: [
       { name: "Research questions and methods answered in Reading Guide", url: "/Reading Guide Portfolio.pdf" },
-      // { name: "Item Two", url: "/target-audience" },
+      { name: "Research questions and methods answered in Reading Guide (group project)", url: "/Reading Guide Group Project.pdf" },
       // { name: "Item Three", url: "/target-audience" },
     ],
   },
@@ -52,7 +63,7 @@ const learningOutcomesList = [
     description: "You methodically reflect on your professional identity and personal development.",
     items: [
       { name: "Personal goals, learning objectives mentioned in the Reading Guide", url: "/Reading Guide Portfolio.pdf" },
-      // { name: "Item Two", url: "/target-audience" },
+      { name: "Reflection, Retrospect in the Reading Guide (group project)", url: "/Reading Guide Group Project.pdf" },
       // { name: "Item Three", url: "/target-audience" },
     ],
   },

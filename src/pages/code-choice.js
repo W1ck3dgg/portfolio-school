@@ -130,6 +130,24 @@ const CodeChoice = () => {
           Next.js also excels in flexibility, allowing custom integrations that are vital for a unique portfolio. While Gatsby and CRA have their merits, they dont match Next.js combination of performance, customization, and ease of use. Additionally, my familiarity with Next.js from past experience makes it a practical choice, ensuring a smoother development process for my project.
           </p>
         </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Refferences</h2>
+          <p className={styles.sectionContent}>
+          hackernoon.com. (n.d.). Popular React Framework Choices to Develop React Apps in 2023 | HackerNoon. [online] Available at: https://hackernoon.com/popular-react-framework-choices-to-develop-react-apps-in-2023 [Accessed Oct. 2023].
+          </p>
+          <p className={styles.sectionContent}>
+          www.nan-labs.com. (n.d.). Top 5 React.js Frameworks for Building Modern Web Applications in 2023. [online] Available at: https://www.nan-labs.com/blog/reactjs-frameworks/ [Accessed Oct. 2023].
+          </p>
+          <p className={styles.sectionContent}>
+          https://create-react-app.dev/docs/getting-started/
+          </p>
+          <p className={styles.sectionContent}>
+          https://www.gatsbyjs.com/docs/
+          </p>
+          <p className={styles.sectionContent}>
+          https://nextjs.org/docs
+          </p>
+        </section>
       </main>
     </div>
   );
