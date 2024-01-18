@@ -277,9 +277,294 @@ const GroupProject = () => {
             <img src="/mtable.png" alt="Image 1" className={styles.sectionImage} />
           </div>
         </section>
+        {/* <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Sprint Delivery 1</h2>
+          <p className={styles.sectionContent}>
+            <strong>Why?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            To clarify stakeholder needs and update on progress.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>How?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+           We organized a meeting with our stakeholders - Pim Williems and Berry Sanders. During the organized timeslot we discussed what we have been doing up until then, we showed and discussed our research and also the Moscow table.
+           We also talked about the plans and goals for the second sprint delivery. I was responsible for creating the presentation, where two of my team members - Mazoun and Negin created simple wireframes to present during the meeting.
+           Where Kim and Maik were responsible for asking the questions and also taking notes for the meeting.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Conclusion</strong>
+          </p>
+          <p className={styles.sectionContent}>
+           Our stakeholders really liked our progress, and liked the design of the video wireframe. However, they said that it was not enough to understand the flow and said there was a missing step before going to the video page.
+           They adviced us to update the wireframes and create prototypes that could be tested with journalists.
+          </p>
+        </section> */}
         <section className={styles.sectionB}>
         <h2 className={styles.sectionTitle} style={{ color: 'rgb(180, 3, 10)' }}>Sprint 2</h2>
         </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Persona</h2>
+          <p className={styles.sectionContent}>
+            <strong>Why?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+          Creating personas helps tailor products and services to user needs, guiding design and enhancing user experience.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>How?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+          A persona is created by researching and synthesizing user data into a fictional but realistic character that represents key traits of a target audience segment.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Conclusion</strong>
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/persona.png" alt="Image 1" className={styles.sectionImageB} />
+          </div>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Interview</h2>
+          <p className={styles.sectionContent}>
+            <strong>Why?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            Understaning the process of a journalist that goes to Gilze en Rijen municipality is crucial to our project. The prepared in advance questions were to help us understand their daily challenges, 
+            workflow, what tools they use and how our product might be helpful for them.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>How?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+           The person who we interviewed online is a journalist working for BN de Stem and goes to the Gilze en Rijen municipality meetings. Our questions consisted of:
+          </p>
+          <p className={styles.sectionContent}>
+            1. What kind of topics are usually discussed in each week on the meeting? Are they different? 
+          </p>
+          <p className={styles.sectionContent}>
+            2. Who goes to these meetings and what type of journalits are going to these meetings?
+          </p>
+          <p className={styles.sectionContent}>
+            3. How do you include multimedia elements in your stories? 
+          </p>
+          <p className={styles.sectionContent}>
+            4. How do you prioritize the tasks for creating a story from the meeting? 
+          </p>
+          <p className={styles.sectionContent}>
+            5. What challenges do journalists face in their current workflow? 
+          </p>
+          <p className={styles.sectionContent}>
+            6. What kind of AI tools do you use? And how do you choose them? 
+          </p>
+          <p className={styles.sectionContent}>
+            7. Do you fact-check the meeting discussions? How do you fact-check them?
+          </p>
+          <p className={styles.sectionContent}>
+            8. What steps do you take to create an article? 
+          </p>
+          <p className={styles.sectionContent}>
+            9. How do you structure your articles? 
+          </p>
+          <p className={styles.sectionContent}>
+            10. Do you need the trending news while creating the story? (if yes) Where in the progress? 
+          </p>
+          <p className={styles.sectionContent}>
+            11. What device do you use during the meetings? (tablet, mobile, desktop...)
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Conclusion</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            The interview was really valuable for us as we learned many things. Starting from their responsibility
+            to cover big range of topics that are connected to the city. For example : Tree plantings, air quality, housings and etc. 
+            Sometimes he faces trouble to write an article if he is not familiar with the given topic, so an extra research is required from him.
+            He is aware of the AI tools availability, but he only used basic text inquiries like spelling and formating. 
+            He is interested in AI Tools and knows about ChatGPT and thinks Fact-checking might be important for researching purposes.
+            For him its important to include how people feel and think in articles and to articles might change depending on their importance.
+            This interview concluded the journalists daily struggles and also our end-product might prove useful for journalists like him.
+          </p>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>First Mock-ups</h2>
+          <p className={styles.sectionContent}>
+            <strong>Why?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+           Working on different pages of the project helped not only us, but also our stakeholders visualize our product in order to get feedback. We selected only the key elements of our 
+           idea and used figma to create the first mock-ups.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>How?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+           Because we had more than one Idea, we decided to divide into two versions that we later showed to the stakeholders for test, feedback and validation. 
+           I worked on creating the workspace pages, where the editing would happen. Basicaly, I recreated an editor, but made it look a bit different, with the difference
+           being the little pop menu on the right side where available AI tools would show for the specific editor section for example - Title, Main body(text), and an option to add more sections.
+           I also designed a preview page that shows how the complete article woud look like.
+           The third page I had was about the home screen of the workspace, where there would be published article history and activity within the platform.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Conclusion</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            We showed the mockups couple of days after to the stakeholders when we also did a sprint delivery. We were advised to not make drastic changes to the design, but make sure 
+            its user-friendly and stick to a similar design the journalists currently have, based on the interview with Tom Hayens. In addition, we were told to focus more on the user-flow and make sure
+            not to create a separate program or tool, meaning to force the journalists to open another browser page or program and switch between. Lastly, we should create prototypes and do a testing on them.
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/mockups.png" alt="Image 1" className={styles.sectionImageB} />
+          </div>
+        </section>
+        <section className={styles.sectionB}>
+        <h2 className={styles.sectionTitle} style={{ color: 'rgb(180, 3, 10)' }}>Sprint 3</h2>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Prototype Creation and Iterations</h2>
+          <p className={styles.sectionContent}>
+            <strong>Why?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            Prototype is an essential part of our project. Its not only our end delivery, but also servers as a tool for our stakeholders to test and give feedback, which will contribute to
+            the wished result - A tool for Gilze en Rijen Journalists
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>How?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+           After the first mockups, we created 3 more iterations of the prototype, where I worked on different areas and pages of the prototype. Thanks to Kim for creating a design system(Google Material),
+           we all followed the same style, shapes and buttons to ensure smooth and clean, straightforward flow.
+           On the Second iteration, I designed and created the Landing page, where the user would first get when they enter the website.
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/wf3.png" alt="Image 1" className={styles.sectionImage} />
+          </div>
+          <p className={styles.sectionContent}>
+           On the third iteration, the workspace got more attention due to feedback from stakeholders. I especially worked on the available workflows for example the user would have the option
+           to either select to create a new article, or to create a social media post.
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/wf0.png" alt="Image 1" className={styles.sectionImageB} />
+          </div>
+          <p className={styles.sectionContent}>
+           Here the user can insert either a link, or a part of the video, a transcript, where later they will be asked to select a suggested topic based on the uploaded content.
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/wf1.png" alt="Image 1" className={styles.sectionImageB} />
+          </div>
+          <p className={styles.sectionContent}>
+           Here the user would get suggested title based on the inserted video or transcript. If the user doesnt like the suggested titles, they have the posibility to regenerate more titles.
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/wf2.png" alt="Image 1" className={styles.sectionImageB} />
+          </div>
+          <p className={styles.sectionContent}>
+           On the last iteration, I changed the look of the social media screens, and created permission-based screens. Because we learned from the last usability testing, that the journalists
+           are not responsible for social media content, we decided to still keep the social media integration, but make permission based system, so I designed permission-based screens for Article writers and social media workers.
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/wf4.png" alt="Image 1" className={styles.sectionImageB} />
+          </div>
+          <p className={styles.sectionContent}>
+            <strong>Conclusion</strong>
+          </p>
+          <p className={styles.sectionContent}>
+          In the beginning our main focus was the video transcription from the municipality of Gilze en Rijen, however we decided to extend our product and make the user able to upload a transcript or a video, select a topic and a title,
+          and then make use of various AI tools to write an article.
+          Link to our figma can be found on
+          </p>
+          <p className={styles.sectionContent}><Link legacyBehavior href="https://www.figma.com/file/f6lvw1UVxtUMA4fqSOYVNj/DataDash_Mockups?type=design&node-id=145-125&mode=design&t=YjNsVIcSL9CGXFtG-0" passHref><a style={linkStyle} target="_blank" rel="noopener noreferrer">Click</a></Link></p>
+          <p className={styles.sectionContent}>
+           Navigate for iterations on the left side of the page.
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/wf5.png" alt="Image 1" className={styles.sectionImage} />
+          </div>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Usability Testing</h2>
+          <p className={styles.sectionContent}>
+            <strong>Why?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            To understand if the expectations of our tool are met, and to validate our research. Getting insight on the workflow and to understand if our tool would prove useful to the journalists.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>How?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+           We sat together and created this MoSCow table, agreeing on requirements lits of functionalities and then present the table to the stakeholders.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Conclusion</strong>
+          </p>
+          <p className={styles.sectionContent}>
+          Data journalism relies on a range of methods for data gathering, from public sources to social media, surveys, FOIA requests, data partnerships, crowdsourcing, leaks, and purchased data. These methods, along with ethical considerations, play a crucial role in shaping impactful data-driven reporting. 
+          As data journalism continues to evolve, adaptability and ethical practice remain key to its success. Full document:
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/persona.png" alt="Image 1" className={styles.sectionImage} />
+          </div>
+        </section>
+        <section className={styles.sectionB}>
+        <h2 className={styles.sectionTitle} style={{ color: 'rgb(180, 3, 10)' }}>Sprint 4</h2>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Coding</h2>
+          <p className={styles.sectionContent}>
+            <strong>Why?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+            To narrow than and set priority on functionalities on our end-product. Ensuring we manage our time for high priority features and set secondary features, if there is enough time, and also 
+            what will not be implemented.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>How?</strong>
+          </p>
+          <p className={styles.sectionContent}>
+           We sat together and created this MoSCow table, agreeing on requirements lits of functionalities and then present the table to the stakeholders.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Conclusion</strong>
+          </p>
+          <p className={styles.sectionContent}>
+          Data journalism relies on a range of methods for data gathering, from public sources to social media, surveys, FOIA requests, data partnerships, crowdsourcing, leaks, and purchased data. These methods, along with ethical considerations, play a crucial role in shaping impactful data-driven reporting. 
+          As data journalism continues to evolve, adaptability and ethical practice remain key to its success. Full document:
+          </p>
+          <div className={styles.imageRow}>
+            <img src="/persona.png" alt="Image 1" className={styles.sectionImage} />
+          </div>
+        </section>
+        <section className={styles.sectionB}>
+        <h2 className={styles.sectionTitle} style={{ color: 'rgb(180, 3, 10)' }}>End of project - Conclusion, Reflection and Retrospect</h2>
+        </section>
+        <p className={styles.sectionContent}>
+            <strong>Project Conclusion</strong>
+          </p>
+          <p className={styles.sectionContent}>
+          Data journalism relies on a range of methods for data gathering, from public sources to social media, surveys, FOIA requests, data partnerships, crowdsourcing, leaks, and purchased data. These methods, along with ethical considerations, play a crucial role in shaping impactful data-driven reporting. 
+          As data journalism continues to evolve, adaptability and ethical practice remain key to its success. Full document:
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Reflection</strong>
+          </p>
+          <p className={styles.sectionContent}>
+          Working on a project has always been one of the best parts in each semester. 
+          With each year I can see my personal growth as a team member, and with the help of this year team I definitely honed many of my skills like communication, time-management, self-leadership, coding, and designing. 
+          I believe all of us worked hard towards the same goal with equal passion  and I am happy I got to meet people with different methods of working and different aspect of doing work.
+          </p>
+          <p className={styles.sectionContent}>
+            <strong>Retrospect</strong>
+          </p>
+          <p className={styles.sectionContent}>
+          In the beginning I was a bit quiet, maybe because Its part of my personality and I dont really like to talk a lot if I dont know the people I am with for a longer period of time. 
+          In the end I opened myself and I think I was able to deliver valuable efforts to my team members. 
+          In my future projects I would like to try and be more open, I have always wanted to try and lead a team to success, because I believe I have what it takes. 
+          Moreover, I think I would try to invlove teachers more into what is happening within the team and the project. 
+          Unfortunately, our team started with less people than the rest of the groups and after some time we lost another member, which made me feel a bit more stressed and demoralizing. 
+          If this ever happens again to me or someone else I would try to not look at the bad side of the situation, but make sure I give more from me to boost the morale of the team as well.
+          </p>
       </main>
     </div>
   );
