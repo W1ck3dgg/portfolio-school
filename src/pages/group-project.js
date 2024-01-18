@@ -199,7 +199,8 @@ const GroupProject = () => {
           The stories are mainly from the municipality meetings, unless there is something really like a hot topic. 
           They are not really using AI tools, but if they get to use any its for any simple tasks. 
           They are used to their current system and wouldnt want to do any big changes. 
-          From the video there is a snapshot of the system they are currently using, so implementing a similar layout would benefit in way of not confusing the current users. 
+          From the video there is a snapshot of the system they are currently using, so implementing a similar layout would benefit in way of not confusing the current users.
+          </p>
           <div className={styles.videoContainer}>
            <iframe
             width="900"
@@ -213,7 +214,6 @@ const GroupProject = () => {
           <div className={styles.imageRow}>
             <img src="/platform.png" alt="Image 1" className={styles.sectionImageB} />
           </div>
-          </p>
         </section>
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>User Stories</h2>
@@ -274,7 +274,7 @@ const GroupProject = () => {
           As data journalism continues to evolve, adaptability and ethical practice remain key to its success. Full document:
           </p>
           <div className={styles.imageRow}>
-            <img src="/Moscow table.png" alt="Image 1" className={styles.sectionImage} />
+            <img src="/mtable.png" alt="Image 1" className={styles.sectionImage} />
           </div>
         </section>
         <section className={styles.sectionB}>
