@@ -17,6 +17,8 @@ const learningOutcomesList = [
       { name: "Expert Interview (group project)", url: "/group-project" },
       { name: "Persona (group project)", url: "/group-project" },
       { name: "Poster (group project)", url: "/group-project" },
+      { name: "Exploring, analyzing design, and art creations", url: "/ddw" },
+      { name: "Exploring different workshops", url: "/weyweyweb" },
     ],
   },
   {
@@ -27,6 +29,7 @@ const learningOutcomesList = [
       { name: "User Stories (group project)", url: "/group-project" },
       { name: "MoSCow Table (group project)", url: "/group-project" },
       { name: "Usability Testing (group project)", url: "/group-project" },
+      { name: "Promotional video and prototype", url: "/ddw" },
     ],
   },
   {
@@ -55,6 +58,7 @@ const learningOutcomesList = [
     items: [
       { name: "Research questions and methods answered in Reading Guide", url: "/Reading Guide Portfolio.pdf" },
       { name: "Research questions and methods answered in Reading Guide (group project)", url: "/Reading Guide Group Project.pdf" },
+      { name: "Creating a product/solution for poffertjes holders", url: "/ddw" },
       // { name: "Item Three", url: "/target-audience" },
     ],
   },
@@ -64,6 +68,7 @@ const learningOutcomesList = [
     items: [
       { name: "Personal goals, learning objectives mentioned in the Reading Guide", url: "/Reading Guide Portfolio.pdf" },
       { name: "Reflection, Retrospect in the Reading Guide (group project)", url: "/Reading Guide Group Project.pdf" },
+      { name: "Reflection in the International week Reading Guide", url: "/Reading Guide International Week.pdf" },
       // { name: "Item Three", url: "/target-audience" },
     ],
   },

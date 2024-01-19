@@ -52,7 +52,7 @@ const ThisSemester = () => {
               <div className={styles.card} style={{ backgroundImage: 'url(/gprg.png)' }}>
               </div>
             </a>
-            <a href="/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <a href="/Reading Guide International Week.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <div className={styles.card} style={{ backgroundImage: 'url(/iwrg.png)' }}>
               </div>
             </a>
